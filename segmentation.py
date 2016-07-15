@@ -8,7 +8,7 @@ def feature_to_word(file):
         inflected_form, lemma, fv = line.split(',')
 
         # ignore any inflection that contains spaces
-        if ' ' in inflected_form and ' ' not in lemma:
+        if ' ' in inflected_form or ' ' in lemma:
             continue
 
         for feature in fv.strip().split(';'):
