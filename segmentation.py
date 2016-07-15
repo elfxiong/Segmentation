@@ -67,15 +67,28 @@ def read_csv(filename):
 
                 #fout.write(feature+","+affix+"\n")
     lst = []
+
+    lcs_dict = {}
+    # this dict is used as a bag to store the feature and the lcs over the affixes asscaited with the feature.
+
     for feature, count in final_freq_dict.items():
         temp = feature.split(",")
-
+        if temp[1] in lcs_dict:
+            lcs_dict[temp[1]].append(temp[0])
+        else:
+            lcs_dict[temp[1]] = [temp[0]]
         # fout.write(temp[1]+","+temp[0]+","+str(count)+"\n")
         tup = (temp[1], temp[0], str(count))
         lst.append(tup)
     lst = sorted(lst, key=lambda x: x[0])
     lst = [','.join(tup) for tup in lst]
     fout.write('\n'.join(lst))
+
+    for features, affix in lcs_dict.items():
+        lcs_temp = MLCS(affix)
+        print(features+" "+lcs_temp)
+
+
 
             #fout.write(feature+","+)
             # lemma is the key word
