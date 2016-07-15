@@ -34,38 +34,25 @@ def produce_dicts(file):
 
 
 def read_csv(filename):
-    final_freq_dict = {}
-    fout = codecs.open("Tag_endings_freq.csv",'wb',encoding='utf-8')
-    fout.write("Feature_Tag,Ending,Frequency"+"\n")
+    final_freq_dict = defaultdict(int)
+    fout = codecs.open("Tag_endings_freq.csv", 'wb', encoding='utf-8')
+    fout.write("Feature_Tag,Ending,Frequency" + "\n")
     with open(filename, encoding='utf-8') as file:
         feature_lemma_forms_dict, lemma_forms_dict = produce_dicts(file)
-    #print(feature_lemma_forms_dict['N'])
+    # print(feature_lemma_forms_dict['N'])
     for feature, lemmas in feature_lemma_forms_dict.items():
         # all the features are the N, V and a list so on.
         # lemmas are a list with lemmas and endings
         all_forms = set()  # all words with this feature
         for lemma, forms in lemmas.items():
-            for x in range(len(forms)):
+            for form in forms:
                 # take every word here in the set which has an inflection
-                affixes = []
-                #print(type(forms[x]))
-                characters_in_word = list(forms[x])
-                characters_in_lemma = list(lemma)
-                lemma_length = len(characters_in_lemma)
-                for i in range(lemma_length,len(characters_in_word)):
-                    affixes.append(characters_in_word[i])
-                affix = ''.join(affixes)
+                suffix = form[len(lemma):]
+
                 # TAG -> ending -> frequency
                 # feature -> affix -> frequency yet to cal.
-                if affix+","+feature in final_freq_dict:
-                    count = final_freq_dict.get(affix+","+feature)
-                    #print(type(count))
-                    count = count+1
-                    final_freq_dict[affix+","+feature] = count
-                else:
-                    final_freq_dict[affix+","+feature] = 1
-
-                #fout.write(feature+","+affix+"\n")
+                final_freq_dict[suffix + "," + feature] += 1
+                # fout.write(feature+","+affix+"\n")
     lst = []
     for feature, count in final_freq_dict.items():
         temp = feature.split(",")
