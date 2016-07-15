@@ -1,0 +1,120 @@
+gelirim,gelmek,POS;IND;V;DECL;PRS;1;SG;{IPFV/PFV}
+gelirsin,gelmek,POS;IND;V;DECL;PRS;2;SG;{IPFV/PFV}
+gelir,gelmek,POS;IND;V;DECL;PRS;3;SG;{IPFV/PFV}
+geliriz,gelmek,POS;IND;V;DECL;PRS;1;PL;{IPFV/PFV}
+gelirsiniz,gelmek,POS;IND;V;DECL;PRS;2;PL;{IPFV/PFV}
+gelirler,gelmek,POS;IND;V;DECL;PRS;3;PL;{IPFV/PFV}
+geliyorum,gelmek,POS;IND;V;DECL;PRS;1;SG;PROG
+geliyorsun,gelmek,POS;IND;V;DECL;PRS;2;SG;PROG
+geliyor,gelmek,POS;IND;V;DECL;PRS;3;SG;PROG
+geliyoruz,gelmek,POS;IND;V;DECL;PRS;1;PL;PROG
+geliyorsunuz,gelmek,POS;IND;V;DECL;PRS;2;PL;PROG
+geliyorlar,gelmek,POS;IND;V;DECL;PRS;3;PL;PROG
+geldim,gelmek,POS;IND;V;DECL;PST;1;SG;PFV
+geldin,gelmek,POS;IND;V;DECL;PST;2;SG;PFV
+geldi,gelmek,POS;IND;V;DECL;PST;3;SG;PFV
+geldik,gelmek,POS;IND;V;DECL;PST;1;PL;PFV
+geldiniz,gelmek,POS;IND;V;DECL;PST;2;PL;PFV
+geldiler,gelmek,POS;IND;V;DECL;PST;3;PL;PFV
+geliyordum,gelmek,POS;IND;V;DECL;PST;1;SG;{IPFV/PROG}
+geliyordun,gelmek,POS;IND;V;DECL;PST;2;SG;{IPFV/PROG}
+geliyordu,gelmek,POS;IND;V;DECL;PST;3;SG;{IPFV/PROG}
+geliyorduk,gelmek,POS;IND;V;DECL;PST;1;PL;{IPFV/PROG}
+geliyordunuz,gelmek,POS;IND;V;DECL;PST;2;PL;{IPFV/PROG}
+geliyorlardı,gelmek,POS;IND;V;DECL;PST;3;PL;{IPFV/PROG}
+geleceğim,gelmek,POS;IND;V;DECL;FUT;1;SG
+geleceksin,gelmek,POS;IND;V;DECL;FUT;2;SG
+gelecek,gelmek,POS;IND;V;DECL;FUT;3;SG
+geleceğiz,gelmek,POS;IND;V;DECL;FUT;1;PL
+geleceksiniz,gelmek,POS;IND;V;DECL;FUT;2;PL
+gelecekler,gelmek,POS;IND;V;DECL;FUT;3;PL
+gelir miyim?,gelmek,POS;IND;V;INT;PRS;1;SG;{IPFV/PFV}
+gelir misin?,gelmek,POS;IND;V;INT;PRS;2;SG;{IPFV/PFV}
+gelir mi?,gelmek,POS;IND;V;INT;PRS;3;SG;{IPFV/PFV}
+gelir miyiz?,gelmek,POS;IND;V;INT;PRS;1;PL;{IPFV/PFV}
+gelir misiniz?,gelmek,POS;IND;V;INT;PRS;2;PL;{IPFV/PFV}
+gelirler mi?,gelmek,POS;IND;V;INT;PRS;3;PL;{IPFV/PFV}
+geliyor muyum?,gelmek,POS;IND;V;INT;PRS;1;SG;PROG
+geliyor musun?,gelmek,POS;IND;V;INT;PRS;2;SG;PROG
+geliyor mu?,gelmek,POS;IND;V;INT;PRS;3;SG;PROG
+geliyor muyuz?,gelmek,POS;IND;V;INT;PRS;1;PL;PROG
+geliyor musunuz?,gelmek,POS;IND;V;INT;PRS;2;PL;PROG
+geliyorlar mı?,gelmek,POS;IND;V;INT;PRS;3;PL;PROG
+geldim mi?,gelmek,POS;IND;V;INT;PST;1;SG;PFV
+geldin mi?,gelmek,POS;IND;V;INT;PST;2;SG;PFV
+geldi mi?,gelmek,POS;IND;V;INT;PST;3;SG;PFV
+geldik mi?,gelmek,POS;IND;V;INT;PST;1;PL;PFV
+geldiniz mi?,gelmek,POS;IND;V;INT;PST;2;PL;PFV
+geldiler mi?,gelmek,POS;IND;V;INT;PST;3;PL;PFV
+geliyor muydum?,gelmek,POS;IND;V;INT;PST;1;SG;{IPFV/PROG}
+geliyor muydun?,gelmek,POS;IND;V;INT;PST;2;SG;{IPFV/PROG}
+geliyor muydu?,gelmek,POS;IND;V;INT;PST;3;SG;{IPFV/PROG}
+geliyor muyduk?,gelmek,POS;IND;V;INT;PST;1;PL;{IPFV/PROG}
+geliyor muydunuz?,gelmek,POS;IND;V;INT;PST;2;PL;{IPFV/PROG}
+geliyorlar mıydı?,gelmek,POS;IND;V;INT;PST;3;PL;{IPFV/PROG}
+gelecek miyim?,gelmek,POS;IND;V;INT;FUT;1;SG
+gelecek misin?,gelmek,POS;IND;V;INT;FUT;2;SG
+gelecek mi?,gelmek,POS;IND;V;INT;FUT;3;SG
+gelecek miyiz?,gelmek,POS;IND;V;INT;FUT;1;PL
+gelecek misiniz?,gelmek,POS;IND;V;INT;FUT;2;PL
+gelecekler mi?,gelmek,POS;IND;V;INT;FUT;3;PL
+gelmem,gelmek,NEG;IND;V;DECL;PRS;1;SG;{IPFV/PFV}
+gelmezsin,gelmek,NEG;IND;V;DECL;PRS;2;SG;{IPFV/PFV}
+gelmez,gelmek,NEG;IND;V;DECL;PRS;3;SG;{IPFV/PFV}
+gelmeyiz,gelmek,NEG;IND;V;DECL;PRS;1;PL;{IPFV/PFV}
+gelmezsiniz,gelmek,NEG;IND;V;DECL;PRS;2;PL;{IPFV/PFV}
+gelmezler,gelmek,NEG;IND;V;DECL;PRS;3;PL;{IPFV/PFV}
+gelmiyorum,gelmek,NEG;IND;V;DECL;PRS;1;SG;PROG
+gelmiyorsun,gelmek,NEG;IND;V;DECL;PRS;2;SG;PROG
+gelmiyor,gelmek,NEG;IND;V;DECL;PRS;3;SG;PROG
+gelmiyoruz,gelmek,NEG;IND;V;DECL;PRS;1;PL;PROG
+gelmiyorsunuz,gelmek,NEG;IND;V;DECL;PRS;2;PL;PROG
+gelmiyorlar,gelmek,NEG;IND;V;DECL;PRS;3;PL;PROG
+gelmedim,gelmek,NEG;IND;V;DECL;PST;1;SG;PFV
+gelmedin,gelmek,NEG;IND;V;DECL;PST;2;SG;PFV
+gelmedi,gelmek,NEG;IND;V;DECL;PST;3;SG;PFV
+gelmedik,gelmek,NEG;IND;V;DECL;PST;1;PL;PFV
+gelmediniz,gelmek,NEG;IND;V;DECL;PST;2;PL;PFV
+gelmediler,gelmek,NEG;IND;V;DECL;PST;3;PL;PFV
+gelmiyordum,gelmek,NEG;IND;V;DECL;PST;1;SG;{IPFV/PROG}
+gelmiyordun,gelmek,NEG;IND;V;DECL;PST;2;SG;{IPFV/PROG}
+gelmiyordu,gelmek,NEG;IND;V;DECL;PST;3;SG;{IPFV/PROG}
+gelmiyorduk,gelmek,NEG;IND;V;DECL;PST;1;PL;{IPFV/PROG}
+gelmiyordunuz,gelmek,NEG;IND;V;DECL;PST;2;PL;{IPFV/PROG}
+gelmiyordular,gelmek,NEG;IND;V;DECL;PST;3;PL;{IPFV/PROG}
+gelmeyeceğim,gelmek,NEG;IND;V;DECL;FUT;1;SG
+gelmeyeceksin,gelmek,NEG;IND;V;DECL;FUT;2;SG
+gelmeyecek,gelmek,NEG;IND;V;DECL;FUT;3;SG
+gelmeyeceğiz,gelmek,NEG;IND;V;DECL;FUT;1;PL
+gelmeyeceksiniz,gelmek,NEG;IND;V;DECL;FUT;2;PL
+gelmeyecekler,gelmek,NEG;IND;V;DECL;FUT;3;PL
+gelmez miyim?,gelmek,POS;IND;V;INT;PRS;1;SG;{IPFV/PFV}
+gelmez misin?,gelmek,POS;IND;V;INT;PRS;2;SG;{IPFV/PFV}
+gelmez mi?,gelmek,POS;IND;V;INT;PRS;3;SG;{IPFV/PFV}
+gelmez miyiz?,gelmek,POS;IND;V;INT;PRS;1;PL;{IPFV/PFV}
+gelmez misiniz?,gelmek,POS;IND;V;INT;PRS;2;PL;{IPFV/PFV}
+gelmezler mi?,gelmek,POS;IND;V;INT;PRS;3;PL;{IPFV/PFV}
+gelmiyor muyum?,gelmek,POS;IND;V;INT;PRS;1;SG;PROG
+gelmiyor musun?,gelmek,POS;IND;V;INT;PRS;2;SG;PROG
+gelmiyor mu?,gelmek,POS;IND;V;INT;PRS;3;SG;PROG
+gelmiyor muyuz?,gelmek,POS;IND;V;INT;PRS;1;PL;PROG
+gelmiyor musunuz?,gelmek,POS;IND;V;INT;PRS;2;PL;PROG
+gelmiyorlar mı?,gelmek,POS;IND;V;INT;PRS;3;PL;PROG
+gelmedim mi?,gelmek,POS;IND;V;INT;PST;1;SG;PFV
+gelmedin mi?,gelmek,POS;IND;V;INT;PST;2;SG;PFV
+gelmedi mi?,gelmek,POS;IND;V;INT;PST;3;SG;PFV
+gelmedik mi?,gelmek,POS;IND;V;INT;PST;1;PL;PFV
+gelmediniz mi?,gelmek,POS;IND;V;INT;PST;2;PL;PFV
+gelmediler mi?,gelmek,POS;IND;V;INT;PST;3;PL;PFV
+gelmiyor muydum?,gelmek,POS;IND;V;INT;PST;1;SG;{IPFV/PROG}
+gelmiyor muydun?,gelmek,POS;IND;V;INT;PST;2;SG;{IPFV/PROG}
+gelmiyor muydu?,gelmek,POS;IND;V;INT;PST;3;SG;{IPFV/PROG}
+gelmiyor muyduk?,gelmek,POS;IND;V;INT;PST;1;PL;{IPFV/PROG}
+gelmiyor muydunuz?,gelmek,POS;IND;V;INT;PST;2;PL;{IPFV/PROG}
+gelmiyorlar mıydı?,gelmek,POS;IND;V;INT;PST;3;PL;{IPFV/PROG}
+gelmeyecek miyim?,gelmek,POS;IND;V;INT;FUT;1;SG
+gelmeyecek misin?,gelmek,POS;IND;V;INT;FUT;2;SG
+gelmeyecek mi?,gelmek,POS;IND;V;INT;FUT;3;SG
+gelmeyecek miyiz?,gelmek,POS;IND;V;INT;FUT;1;PL
+gelmeyecek misiniz?,gelmek,POS;IND;V;INT;FUT;2;PL
+gelmeyecekler mi?,gelmek,POS;IND;V;INT;FUT;3;PL
