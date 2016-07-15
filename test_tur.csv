@@ -1,0 +1,10 @@
+gelirim,V;{IPFV/PFV};PRS;1;SG
+gelirsin,V;{IPFV/PFV};PRS;2;SG
+geliyorum,V;PROG;PRS;1;SG
+geliyorsun,V;PROG;PRS;2;SG
+geldim,V;PST;1;SG
+geldin,V;PST;2;SG
+geliyordum,V;{PROG};PST;1;SG
+geliyordun,V;{PROG};PST;2;SG
+geleceǧim,V;{IPFV/PFV};FUT;1;SG
+geleceksin,V;{IPFV/PFV};FUT;2;SG
