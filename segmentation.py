@@ -51,21 +51,20 @@ def read_csv(filename):
 
                 # TAG -> ending -> frequency
                 # feature -> affix -> frequency yet to cal.
-                final_freq_dict[suffix + "," + feature] += 1
+                final_freq_dict[(suffix, feature)] += 1
                 # fout.write(feature+","+affix+"\n")
     lst = []
 
     lcs_dict = {}
     # this dict is used as a bag to store the feature and the lcs over the affixes asscaited with the feature.
 
-    for feature, count in final_freq_dict.items():
-        temp = feature.split(",")
-        if temp[1] in lcs_dict:
-            lcs_dict[temp[1]].append(temp[0])
+    for (suffix, feature), count in final_freq_dict.items():
+        if feature in lcs_dict:
+            lcs_dict[feature].append(suffix)
         else:
-            lcs_dict[temp[1]] = [temp[0]]
-        # fout.write(temp[1]+","+temp[0]+","+str(count)+"\n")
-        tup = (temp[1], temp[0], str(count))
+            lcs_dict[feature] = [suffix]
+        # fout.write(feature+","+suffix+","+str(count)+"\n")
+        tup = (feature, suffix, str(count))
         lst.append(tup)
     lst = sorted(lst, key=lambda x: x[1])
     lst = sorted(lst, key=lambda x: x[0])
