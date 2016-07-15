@@ -73,6 +73,7 @@ def read_csv(filename):
         # fout.write(temp[1]+","+temp[0]+","+str(count)+"\n")
         tup = (temp[1], temp[0], str(count))
         lst.append(tup)
+    lst = sorted(lst, key=lambda x: x[1])
     lst = sorted(lst, key=lambda x: x[0])
     lst = [','.join(tup) for tup in lst]
     fout.write('\n'.join(lst))
