@@ -7,18 +7,21 @@ def read_csv(filename):
     all_forms = []
     with open(filename) as file:
         for line in file:
-            inflection, fv = line.split(',')
+            inflected_form, lemma, fv = line.split(',')
 
             # ignore any inflection that contains spaces
-            if ' ' in inflection:
+            if ' ' in inflected_form:
                 continue
 
             for feature in fv.strip().split(';'):
-                feature_to_word[feature].append(inflection)
-                all_forms.append(inflection)
+                feature_to_word[feature].append(inflected_form)
+                all_forms.append(inflected_form)
 
     print(all_forms)
-    print('lemma: {}\n'.format(MLCS(all_forms)))
+
+    # first guess of the stem
+    stem = MLCS(all_forms)
+    print('lemma: {}\n'.format(stem))
 
     for feature, forms in feature_to_word.items():
         print("{}: {}\n{}\n".format(feature, MLCS(forms), ','.join(forms)))
