@@ -1,9 +1,10 @@
 from collections import defaultdict
+from starter_code import LCS, MLCS
 
 
 def read_csv(filename):
     feature_to_word = defaultdict(list)
-    words = []
+    all_forms = []
     with open(filename) as file:
         for line in file:
             inflection, fv = line.split(',')
@@ -14,9 +15,13 @@ def read_csv(filename):
 
             for feature in fv.strip().split(';'):
                 feature_to_word[feature].append(inflection)
-                words.append(inflection)
-    print(words)
-    print_dict(feature_to_word)
+                all_forms.append(inflection)
+
+    print(all_forms)
+    print('lemma: {}\n'.format(MLCS(all_forms)))
+
+    for feature, forms in feature_to_word.items():
+        print("{}: {}\n{}\n".format(feature, MLCS(forms), ','.join(forms)))
 
 
 def print_dict(d):
