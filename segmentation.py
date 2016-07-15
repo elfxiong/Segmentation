@@ -5,13 +5,24 @@ import re
 from starter_code import LCS, MLCS, compare_str_lcs
 import codecs
 
-def produce_dicts(file):
-    # dict[lemma] == [form1, form2, ...]
-    lemma_forms_dict = defaultdict(list)
+
+def get_unprocessed_data(file):
+    lst = []
     for line in file:
         inflected_form, lemma, fv = line.split(',')
+        # ignore any inflection that contains spaces
         if ' ' in inflected_form or ' ' in lemma:
             continue
+        lst.append((inflected_form, lemma, fv))
+    return lst
+
+
+def produce_dicts(file):
+    tup_list = get_unprocessed_data(file)
+
+    # dict[lemma] == [form1, form2, ...]
+    lemma_forms_dict = defaultdict(list)
+    for inflected_form, lemma, fv in tup_list:
         lemma_forms_dict[lemma].append(inflected_form)
 
     # dict[lemma] == lcs_of_all_its_forms
@@ -19,17 +30,10 @@ def produce_dicts(file):
     for word, forms in lemma_forms_dict.items():
         lemma_lcs_dict[word] = MLCS(forms)
 
-    #print(lemma_lcs_dict)
-
     # dict[feature][stem] == [form1, form2, ...]
     feature_dict = defaultdict(lambda: defaultdict(list))
-    file.seek(0)
-    for line in file:
-        inflected_form, lemma, fv = line.split(',')
 
-        # ignore any inflection that contains spaces
-        if ' ' in inflected_form or ' ' in lemma:
-            continue
+    for inflected_form, lemma, fv in tup_list:
         stem = lemma_lcs_dict[lemma]
         for feature in fv.strip().split(';'):
             feature_dict[feature][stem].append(inflected_form)
