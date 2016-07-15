@@ -1,30 +1,50 @@
 from collections import defaultdict
-from starter_code import LCS, MLCS
+from starter_code import LCS, MLCS, compare_str_lcs
+
+
+def feature_to_word(file):
+    dic = defaultdict(list)
+    for line in file:
+        inflected_form, lemma, fv = line.split(',')
+
+        # ignore any inflection that contains spaces
+        if ' ' in inflected_form and ' ' not in lemma:
+            continue
+
+        for feature in fv.strip().split(';'):
+            dic[feature].append(inflected_form)
+    return dic
+
+
+def produce_dicts(file):
+    # feature_dict[feature][lemma] = [form1, form2, ...]
+    feature_dict = defaultdict(lambda: defaultdict(list))
+
+    # lemma_dict[lemma] = [form1, form2, ...]
+    lemma_dict = defaultdict(list)
+    for line in file:
+        inflected_form, lemma, fv = line.split(',')
+
+        # ignore any inflection that contains spaces
+        if ' ' in inflected_form and ' ' not in lemma:
+            continue
+
+        for feature in fv.strip().split(';'):
+            feature_dict[feature][lemma].append(inflected_form)
+            lemma_dict[lemma].append(inflected_form)
+    return feature_dict, lemma_dict
 
 
 def read_csv(filename):
-    feature_to_word = defaultdict(list)
-    all_forms = []
     with open(filename) as file:
-        for line in file:
-            inflected_form, lemma, fv = line.split(',')
+        feature_lemma_forms_dict, lemma_forms_dict = produce_dicts(file)
 
-            # ignore any inflection that contains spaces
-            if ' ' in inflected_form:
-                continue
-
-            for feature in fv.strip().split(';'):
-                feature_to_word[feature].append(inflected_form)
-                all_forms.append(inflected_form)
-
-    print(all_forms)
-
-    # first guess of the stem
-    stem = MLCS(all_forms)
-    print('lemma: {}\n'.format(stem))
-
-    for feature, forms in feature_to_word.items():
-        print("{}: {}\n{}\n".format(feature, MLCS(forms), ','.join(forms)))
+    for feature, lemmas in feature_lemma_forms_dict.items():
+        all_forms = set()  # all words with this feature
+        for lemma, forms in lemmas.items():
+            all_forms.update(forms)
+        # lcs = MLCS(all_forms)
+        # print('{}: {}'.format(feature, lcs))
 
 
 def print_dict(d):
