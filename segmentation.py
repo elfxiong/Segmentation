@@ -2,20 +2,6 @@ from collections import defaultdict
 from starter_code import LCS, MLCS, compare_str_lcs
 
 
-def feature_to_word(file):
-    dic = defaultdict(list)
-    for line in file:
-        inflected_form, lemma, fv = line.split(',')
-
-        # ignore any inflection that contains spaces
-        if ' ' in inflected_form or ' ' in lemma:
-            continue
-
-        for feature in fv.strip().split(';'):
-            dic[feature].append(inflected_form)
-    return dic
-
-
 def produce_dicts(file):
     # feature_dict[feature][lemma] = [form1, form2, ...]
     feature_dict = defaultdict(lambda: defaultdict(list))
@@ -26,7 +12,7 @@ def produce_dicts(file):
         inflected_form, lemma, fv = line.split(',')
 
         # ignore any inflection that contains spaces
-        if ' ' in inflected_form and ' ' not in lemma:
+        if ' ' in inflected_form or ' ' in lemma:
             continue
 
         for feature in fv.strip().split(';'):
@@ -45,12 +31,6 @@ def read_csv(filename):
             all_forms.update(forms)
         # lcs = MLCS(all_forms)
         # print('{}: {}'.format(feature, lcs))
-
-
-def print_dict(d):
-    print(d.keys())
-    for key, value in d.items():
-        print("{}: {}".format(key, ', '.join(value)))
 
 
 def main():
