@@ -118,3 +118,877 @@ gelmeyecek mi?,gelmek,POS;IND;V;INT;FUT;3;SG
 gelmeyecek miyiz?,gelmek,POS;IND;V;INT;FUT;1;PL
 gelmeyecek misiniz?,gelmek,POS;IND;V;INT;FUT;2;PL
 gelmeyecekler mi?,gelmek,POS;IND;V;INT;FUT;3;PL
+Abadan,Abadan,N;NOM;SG
+Abadanlar / Abadan'lar,Abadan,N;NOM;PL
+Abadan'ı,Abadan,N;ACC;SG
+Abadanları / Abadan'ları,Abadan,N;ACC;PL
+Abadan'a,Abadan,N;DAT;SG
+Abadanlara / Abadan'lara,Abadan,N;DAT;PL
+Abadan'da,Abadan,N;ESS;SG
+Abadanlarda / Abadan'larda,Abadan,N;ESS;PL
+Abadan'dan,Abadan,N;ABL;SG
+Abadanlardan / Abadan'lardan,Abadan,N;ABL;PL
+Abadan'ın,Abadan,N;GEN;SG
+Abadanların / Abadan'ların,Abadan,N;GEN;PL
+Abadan'ım,Abadan,N;PSS1S;SG
+Abadanlarım / Abadan'larım,Abadan,N;PSS1S;PL
+Abadan'ın,Abadan,N;PSS2S;SG
+Abadanların / Abadan'ların,Abadan,N;PSS2S;PL
+Abadan'ı,Abadan,N;PSS3S;SG
+Abadanları / Abadan'ları,Abadan,N;PSS3S;PL
+Abadan'ımız,Abadan,N;PSS1P;SG
+Abadanlarımız / Abadan'larımız,Abadan,N;PSS1P;PL
+Abadan'ınız,Abadan,N;PSS2P;SG
+Abadanlarınız / Abadan'larınız,Abadan,N;PSS2P;PL
+Abadan'ı / Abadanları / Abadan'ları,Abadan,N;PSS3P;SG
+Abadanları / Abadan'ları,Abadan,N;PSS3P;PL
+Abu Dabiliyi,Abu Dabili,N;ACC
+Abu Dabililer,Abu Dabili,N;PL
+Abu Dabili,Abu Dabili,N;NOM;SG
+Abu Dabililer,Abu Dabili,N;NOM;PL
+Abu Dabiliyi,Abu Dabili,N;ACC;SG
+Abu Dabilileri,Abu Dabili,N;ACC;PL
+Abu Dabiliye,Abu Dabili,N;DAT;SG
+Abu Dabililere,Abu Dabili,N;DAT;PL
+Abu Dabilide,Abu Dabili,N;ESS;SG
+Abu Dabililerde,Abu Dabili,N;ESS;PL
+Abu Dabiliden,Abu Dabili,N;ABL;SG
+Abu Dabililerden,Abu Dabili,N;ABL;PL
+Abu Dabilinin,Abu Dabili,N;GEN;SG
+Abu Dabililerin,Abu Dabili,N;GEN;PL
+Abu Dabilim,Abu Dabili,N;PSS1S;NOM;SG
+Abu Dabililerim,Abu Dabili,N;PSS1S;NOM;PL
+Abu Dabilimi,Abu Dabili,N;PSS1S;ACC;SG
+Abu Dabililerimi,Abu Dabili,N;PSS1S;ACC;PL
+Abu Dabilime,Abu Dabili,N;PSS1S;DAT;SG
+Abu Dabililerime,Abu Dabili,N;PSS1S;DAT;PL
+Abu Dabilimde,Abu Dabili,N;PSS1S;ESS;SG
+Abu Dabililerimde,Abu Dabili,N;PSS1S;ESS;PL
+Abu Dabilimden,Abu Dabili,N;PSS1S;ABL;SG
+Abu Dabililerimden,Abu Dabili,N;PSS1S;ABL;PL
+Abu Dabilimin,Abu Dabili,N;PSS1S;GEN;SG
+Abu Dabililerimin,Abu Dabili,N;PSS1S;GEN;PL
+Abu Dabilin,Abu Dabili,N;PSS2S;NOM;SG
+Abu Dabililerin,Abu Dabili,N;PSS2S;NOM;PL
+Abu Dabilini,Abu Dabili,N;PSS2S;ACC;SG
+Abu Dabililerini,Abu Dabili,N;PSS2S;ACC;PL
+Abu Dabiline,Abu Dabili,N;PSS2S;DAT;SG
+Abu Dabililerine,Abu Dabili,N;PSS2S;DAT;PL
+Abu Dabilinde,Abu Dabili,N;PSS2S;ESS;SG
+Abu Dabililerinde,Abu Dabili,N;PSS2S;ESS;PL
+Abu Dabilinden,Abu Dabili,N;PSS2S;ABL;SG
+Abu Dabililerinden,Abu Dabili,N;PSS2S;ABL;PL
+Abu Dabilinin,Abu Dabili,N;PSS2S;GEN;SG
+Abu Dabililerinin,Abu Dabili,N;PSS2S;GEN;PL
+Abu Dabilisi,Abu Dabili,N;PSS3S;NOM;SG
+Abu Dabilileri,Abu Dabili,N;PSS3S;NOM;PL
+Abu Dabilisini,Abu Dabili,N;PSS3S;ACC;SG
+Abu Dabililerini,Abu Dabili,N;PSS3S;ACC;PL
+Abu Dabilisine,Abu Dabili,N;PSS3S;DAT;SG
+Abu Dabililerine,Abu Dabili,N;PSS3S;DAT;PL
+Abu Dabilisinde,Abu Dabili,N;PSS3S;ESS;SG
+Abu Dabililerinde,Abu Dabili,N;PSS3S;ESS;PL
+Abu Dabilisinden,Abu Dabili,N;PSS3S;ABL;SG
+Abu Dabililerinden,Abu Dabili,N;PSS3S;ABL;PL
+Abu Dabilisinin,Abu Dabili,N;PSS3S;GEN;SG
+Abu Dabililerinin,Abu Dabili,N;PSS3S;GEN;PL
+Abu Dabilimiz,Abu Dabili,N;PSS1P;NOM;SG
+Abu Dabililerimiz,Abu Dabili,N;PSS1P;NOM;PL
+Abu Dabilimizi,Abu Dabili,N;PSS1P;ACC;SG
+Abu Dabililerimizi,Abu Dabili,N;PSS1P;ACC;PL
+Abu Dabilimize,Abu Dabili,N;PSS1P;DAT;SG
+Abu Dabililerimize,Abu Dabili,N;PSS1P;DAT;PL
+Abu Dabilimizde,Abu Dabili,N;PSS1P;ESS;SG
+Abu Dabililerimizde,Abu Dabili,N;PSS1P;ESS;PL
+Abu Dabilimizden,Abu Dabili,N;PSS1P;ABL;SG
+Abu Dabililerimizden,Abu Dabili,N;PSS1P;ABL;PL
+Abu Dabilimizin,Abu Dabili,N;PSS1P;GEN;SG
+Abu Dabililerimizin,Abu Dabili,N;PSS1P;GEN;PL
+Abu Dabiliniz,Abu Dabili,N;PSS2P;NOM;SG
+Abu Dabilileriniz,Abu Dabili,N;PSS2P;NOM;PL
+Abu Dabilinizi,Abu Dabili,N;PSS2P;ACC;SG
+Abu Dabililerinizi,Abu Dabili,N;PSS2P;ACC;PL
+Abu Dabilinize,Abu Dabili,N;PSS2P;DAT;SG
+Abu Dabililerinize,Abu Dabili,N;PSS2P;DAT;PL
+Abu Dabilinizde,Abu Dabili,N;PSS2P;ESS;SG
+Abu Dabililerinizde,Abu Dabili,N;PSS2P;ESS;PL
+Abu Dabilinizden,Abu Dabili,N;PSS2P;ABL;SG
+Abu Dabililerinizden,Abu Dabili,N;PSS2P;ABL;PL
+Abu Dabilinizin,Abu Dabili,N;PSS2P;GEN;SG
+Abu Dabililerinizin,Abu Dabili,N;PSS2P;GEN;PL
+Abu Dabilileri,Abu Dabili,N;PSS3P;NOM;SG
+Abu Dabilileri,Abu Dabili,N;PSS3P;NOM;PL
+Abu Dabililerini,Abu Dabili,N;PSS3P;ACC;SG
+Abu Dabililerini,Abu Dabili,N;PSS3P;ACC;PL
+Abu Dabililerine,Abu Dabili,N;PSS3P;DAT;SG
+Abu Dabililerine,Abu Dabili,N;PSS3P;DAT;PL
+Abu Dabililerinde,Abu Dabili,N;PSS3P;ESS;SG
+Abu Dabililerinde,Abu Dabili,N;PSS3P;ESS;PL
+Abu Dabililerinden,Abu Dabili,N;PSS3P;ABL;SG
+Abu Dabililerinden,Abu Dabili,N;PSS3P;ABL;PL
+Abu Dabililerinin,Abu Dabili,N;PSS3P;GEN;SG
+Abu Dabililerinin,Abu Dabili,N;PSS3P;GEN;PL
+Abu Dabiliyim,Abu Dabili,N;PRS;1;SG;{IPFV/PFV}
+Abu Dabililerim*,Abu Dabili,N;PRS;1;SG;{IPFV/PFV}
+Abu Dabilisin,Abu Dabili,N;PRS;2;SG;{IPFV/PFV}
+Abu Dabililersin*,Abu Dabili,N;PRS;2;SG;{IPFV/PFV}
+Abu Dabili / Abu Dabilidir,Abu Dabili,N;PRS;3;SG;{IPFV/PFV}
+Abu Dabililer* / Abu Dabililerdir*,Abu Dabili,N;PRS;3;SG;{IPFV/PFV}
+Abu Dabiliyiz,Abu Dabili,N;PRS;1;SG;{IPFV/PFV}
+Abu Dabilileriz,Abu Dabili,N;PRS;1;PL;{IPFV/PFV}
+Abu Dabilisiniz,Abu Dabili,N;PRS;2;SG;{IPFV/PFV}
+Abu Dabililersiniz,Abu Dabili,N;PRS;2;PL;{IPFV/PFV}
+Abu Dabililer,Abu Dabili,N;PRS;3;SG;{IPFV/PFV}
+Abu Dabililerdir,Abu Dabili,N;PRS;3;PL;{IPFV/PFV}
+Abu Dabiliydim,Abu Dabili,N;PST;1;SG
+Abu Dabililerdim*,Abu Dabili,N;PST;1;SG
+Abu Dabiliydin,Abu Dabili,N;PST;2;SG
+Abu Dabililerdin*,Abu Dabili,N;PST;2;SG
+Abu Dabiliydi,Abu Dabili,N;PST;3;SG
+Abu Dabililerdi*,Abu Dabili,N;PST;3;SG
+Abu Dabiliydik,Abu Dabili,N;PST;1;SG
+Abu Dabililerdik,Abu Dabili,N;PST;1;PL
+Abu Dabiliydiniz,Abu Dabili,N;PST;2;SG
+Abu Dabililerdiniz,Abu Dabili,N;PST;2;PL
+Abu Dabiliydiler,Abu Dabili,N;PST;3;SG
+Abu Dabililerdi,Abu Dabili,N;PST;3;PL
+Abu Dabiliymişim,Abu Dabili,N;PST;1;SG;NFH
+Abu Dabililermişim*,Abu Dabili,N;PST;1;SG;NFH
+Abu Dabiliymişsin,Abu Dabili,N;PST;2;SG;NFH
+Abu Dabililermişsin*,Abu Dabili,N;PST;2;SG;NFH
+Abu Dabiliymiş,Abu Dabili,N;PST;3;SG;NFH
+Abu Dabililermiş*,Abu Dabili,N;PST;3;SG;NFH
+Abu Dabiliymişiz,Abu Dabili,N;PST;1;SG;NFH
+Abu Dabililermişiz,Abu Dabili,N;PST;1;PL;NFH
+Abu Dabiliymişsiniz,Abu Dabili,N;PST;2;SG;NFH
+Abu Dabililermişsiniz,Abu Dabili,N;PST;2;PL;NFH
+Abu Dabiliymişler,Abu Dabili,N;PST;3;SG;NFH
+Abu Dabililermiş,Abu Dabili,N;PST;3;PL;NFH
+Aleviyi,Alevi,N;ACC
+Aleviler,Alevi,N;PL
+Amerika sakasını,Amerika sakası,N;ACC
+Amerika sakaları,Amerika sakası,N;PL
+Amerikan sakasını,Amerikan sakası,N;ACC
+Amerikan sakaları,Amerikan sakası,N;PL
+Ankaralı,Ankaralı,ADJ;NOM;SG
+Ankaralılar,Ankaralı,ADJ;NOM;PL
+Ankaralıyı,Ankaralı,ADJ;ACC;SG
+Ankaralıları,Ankaralı,ADJ;ACC;PL
+Ankaralıya,Ankaralı,ADJ;DAT;SG
+Ankaralılara,Ankaralı,ADJ;DAT;PL
+Ankaralıda,Ankaralı,ADJ;ESS;SG
+Ankaralılarda,Ankaralı,ADJ;ESS;PL
+Ankaralıdan,Ankaralı,ADJ;ABL;SG
+Ankaralılardan,Ankaralı,ADJ;ABL;PL
+Ankaralının,Ankaralı,ADJ;GEN;SG
+Ankaralıların,Ankaralı,ADJ;GEN;PL
+Ankaralım,Ankaralı,ADJ;PSS1S;NOM;SG
+Ankaralılarım,Ankaralı,ADJ;PSS1S;NOM;PL
+Ankaralımı,Ankaralı,ADJ;PSS1S;ACC;SG
+Ankaralılarımı,Ankaralı,ADJ;PSS1S;ACC;PL
+Ankaralıma,Ankaralı,ADJ;PSS1S;DAT;SG
+Ankaralılarıma,Ankaralı,ADJ;PSS1S;DAT;PL
+Ankaralımda,Ankaralı,ADJ;PSS1S;ESS;SG
+Ankaralılarımda,Ankaralı,ADJ;PSS1S;ESS;PL
+Ankaralımdan,Ankaralı,ADJ;PSS1S;ABL;SG
+Ankaralılarımdan,Ankaralı,ADJ;PSS1S;ABL;PL
+Ankaralımın,Ankaralı,ADJ;PSS1S;GEN;SG
+Ankaralılarımın,Ankaralı,ADJ;PSS1S;GEN;PL
+Ankaralın,Ankaralı,ADJ;PSS2S;NOM;SG
+Ankaralıların,Ankaralı,ADJ;PSS2S;NOM;PL
+Ankaralını,Ankaralı,ADJ;PSS2S;ACC;SG
+Ankaralılarını,Ankaralı,ADJ;PSS2S;ACC;PL
+Ankaralına,Ankaralı,ADJ;PSS2S;DAT;SG
+Ankaralılarına,Ankaralı,ADJ;PSS2S;DAT;PL
+Ankaralında,Ankaralı,ADJ;PSS2S;ESS;SG
+Ankaralılarında,Ankaralı,ADJ;PSS2S;ESS;PL
+Ankaralından,Ankaralı,ADJ;PSS2S;ABL;SG
+Ankaralılarından,Ankaralı,ADJ;PSS2S;ABL;PL
+Ankaralının,Ankaralı,ADJ;PSS2S;GEN;SG
+Ankaralılarının,Ankaralı,ADJ;PSS2S;GEN;PL
+Ankaralısı,Ankaralı,ADJ;PSS3S;NOM;SG
+Ankaralıları,Ankaralı,ADJ;PSS3S;NOM;PL
+Ankaralısını,Ankaralı,ADJ;PSS3S;ACC;SG
+Ankaralılarını,Ankaralı,ADJ;PSS3S;ACC;PL
+Ankaralısına,Ankaralı,ADJ;PSS3S;DAT;SG
+Ankaralılarına,Ankaralı,ADJ;PSS3S;DAT;PL
+Ankaralısında,Ankaralı,ADJ;PSS3S;ESS;SG
+Ankaralılarında,Ankaralı,ADJ;PSS3S;ESS;PL
+Ankaralısından,Ankaralı,ADJ;PSS3S;ABL;SG
+Ankaralılarından,Ankaralı,ADJ;PSS3S;ABL;PL
+Ankaralısının,Ankaralı,ADJ;PSS3S;GEN;SG
+Ankaralılarının,Ankaralı,ADJ;PSS3S;GEN;PL
+Ankaralımız,Ankaralı,ADJ;PSS1P;NOM;SG
+Ankaralılarımız,Ankaralı,ADJ;PSS1P;NOM;PL
+Ankaralımızı,Ankaralı,ADJ;PSS1P;ACC;SG
+Ankaralılarımızı,Ankaralı,ADJ;PSS1P;ACC;PL
+Ankaralımıza,Ankaralı,ADJ;PSS1P;DAT;SG
+Ankaralılarımıza,Ankaralı,ADJ;PSS1P;DAT;PL
+Ankaralımızda,Ankaralı,ADJ;PSS1P;ESS;SG
+Ankaralılarımızda,Ankaralı,ADJ;PSS1P;ESS;PL
+Ankaralımızdan,Ankaralı,ADJ;PSS1P;ABL;SG
+Ankaralılarımızdan,Ankaralı,ADJ;PSS1P;ABL;PL
+Ankaralımızın,Ankaralı,ADJ;PSS1P;GEN;SG
+Ankaralılarımızın,Ankaralı,ADJ;PSS1P;GEN;PL
+Ankaralınız,Ankaralı,ADJ;PSS2P;NOM;SG
+Ankaralılarınız,Ankaralı,ADJ;PSS2P;NOM;PL
+Ankaralınızı,Ankaralı,ADJ;PSS2P;ACC;SG
+Ankaralılarınızı,Ankaralı,ADJ;PSS2P;ACC;PL
+Ankaralınıza,Ankaralı,ADJ;PSS2P;DAT;SG
+Ankaralılarınıza,Ankaralı,ADJ;PSS2P;DAT;PL
+Ankaralınızda,Ankaralı,ADJ;PSS2P;ESS;SG
+Ankaralılarınızda,Ankaralı,ADJ;PSS2P;ESS;PL
+Ankaralınızdan,Ankaralı,ADJ;PSS2P;ABL;SG
+Ankaralılarınızdan,Ankaralı,ADJ;PSS2P;ABL;PL
+Ankaralınızın,Ankaralı,ADJ;PSS2P;GEN;SG
+Ankaralılarınızın,Ankaralı,ADJ;PSS2P;GEN;PL
+Ankaralıları,Ankaralı,ADJ;PSS3P;NOM;SG
+Ankaralıları,Ankaralı,ADJ;PSS3P;NOM;PL
+Ankaralılarını,Ankaralı,ADJ;PSS3P;ACC;SG
+Ankaralılarını,Ankaralı,ADJ;PSS3P;ACC;PL
+Ankaralılarına,Ankaralı,ADJ;PSS3P;DAT;SG
+Ankaralılarına,Ankaralı,ADJ;PSS3P;DAT;PL
+Ankaralılarında,Ankaralı,ADJ;PSS3P;ESS;SG
+Ankaralılarında,Ankaralı,ADJ;PSS3P;ESS;PL
+Ankaralılarından,Ankaralı,ADJ;PSS3P;ABL;SG
+Ankaralılarından,Ankaralı,ADJ;PSS3P;ABL;PL
+Ankaralılarının,Ankaralı,ADJ;PSS3P;GEN;SG
+Ankaralılarının,Ankaralı,ADJ;PSS3P;GEN;PL
+Ankaralıyım,Ankaralı,ADJ;PRS;1;SG;{IPFV/PFV}
+Ankaralılarım*,Ankaralı,ADJ;PRS;1;SG;{IPFV/PFV}
+Ankaralısın,Ankaralı,ADJ;PRS;2;SG;{IPFV/PFV}
+Ankaralılarsın*,Ankaralı,ADJ;PRS;2;SG;{IPFV/PFV}
+Ankaralı / Ankaralıdır,Ankaralı,ADJ;PRS;3;SG;{IPFV/PFV}
+Ankaralılar* / Ankaralılardır*,Ankaralı,ADJ;PRS;3;SG;{IPFV/PFV}
+Ankaralıyız,Ankaralı,ADJ;PRS;1;SG;{IPFV/PFV}
+Ankaralılarız,Ankaralı,ADJ;PRS;1;PL;{IPFV/PFV}
+Ankaralısınız,Ankaralı,ADJ;PRS;2;SG;{IPFV/PFV}
+Ankaralılarsınız,Ankaralı,ADJ;PRS;2;PL;{IPFV/PFV}
+Ankaralılar,Ankaralı,ADJ;PRS;3;SG;{IPFV/PFV}
+Ankaralılardır,Ankaralı,ADJ;PRS;3;PL;{IPFV/PFV}
+Ankaralıydım,Ankaralı,ADJ;PST;1;SG
+Ankaralılardım*,Ankaralı,ADJ;PST;1;SG
+Ankaralıydın,Ankaralı,ADJ;PST;2;SG
+Ankaralılardın*,Ankaralı,ADJ;PST;2;SG
+Ankaralıydı,Ankaralı,ADJ;PST;3;SG
+Ankaralılardı*,Ankaralı,ADJ;PST;3;SG
+Ankaralıydık,Ankaralı,ADJ;PST;1;SG
+Ankaralılardık,Ankaralı,ADJ;PST;1;PL
+Ankaralıydınız,Ankaralı,ADJ;PST;2;SG
+Ankaralılardınız,Ankaralı,ADJ;PST;2;PL
+Ankaralıydılar,Ankaralı,ADJ;PST;3;SG
+Ankaralılardı,Ankaralı,ADJ;PST;3;PL
+Ankaralıymışım,Ankaralı,ADJ;PST;1;SG;NFH
+Ankaralılarmışım*,Ankaralı,ADJ;PST;1;SG;NFH
+Ankaralıymışsın,Ankaralı,ADJ;PST;2;SG;NFH
+Ankaralılarmışsın*,Ankaralı,ADJ;PST;2;SG;NFH
+Ankaralıymış,Ankaralı,ADJ;PST;3;SG;NFH
+Ankaralılarmış*,Ankaralı,ADJ;PST;3;SG;NFH
+Ankaralıymışız,Ankaralı,ADJ;PST;1;SG;NFH
+Ankaralılarmışız,Ankaralı,ADJ;PST;1;PL;NFH
+Ankaralıymışsınız,Ankaralı,ADJ;PST;2;SG;NFH
+Ankaralılarmışsınız,Ankaralı,ADJ;PST;2;PL;NFH
+Ankaralıymışlar,Ankaralı,ADJ;PST;3;SG;NFH
+Ankaralılarmış,Ankaralı,ADJ;PST;3;PL;NFH
+Arap'ı,Arap,N;ACC
+Araplar,Arap,N;PL
+Arap,Arap,N;NOM;SG
+Araplar / Arap'lar,Arap,N;NOM;PL
+Arap'ı,Arap,N;ACC;SG
+Arapları / Arap'ları,Arap,N;ACC;PL
+Arap'a,Arap,N;DAT;SG
+Araplara / Arap'lara,Arap,N;DAT;PL
+Arap'da,Arap,N;ESS;SG
+Araplarda / Arap'larda,Arap,N;ESS;PL
+Arap'dan,Arap,N;ABL;SG
+Araplardan / Arap'lardan,Arap,N;ABL;PL
+Arap'ın,Arap,N;GEN;SG
+Arapların / Arap'ların,Arap,N;GEN;PL
+Ay tutulması,Ay tutulması,N;NOM;SG
+Ay tutulmaları,Ay tutulması,N;NOM;PL
+Ay tutulmasını,Ay tutulması,N;ACC;SG
+Ay tutulmalarını,Ay tutulması,N;ACC;PL
+Ay tutulmasına,Ay tutulması,N;DAT;SG
+Ay tutulmalarına,Ay tutulması,N;DAT;PL
+Ay tutulmasında,Ay tutulması,N;ESS;SG
+Ay tutulmalarında,Ay tutulması,N;ESS;PL
+Ay tutulmasından,Ay tutulması,N;ABL;SG
+Ay tutulmalarından,Ay tutulması,N;ABL;PL
+Ay tutulmasının,Ay tutulması,N;GEN;SG
+Ay tutulmalarının,Ay tutulması,N;GEN;PL
+Aşil tendonunu,Aşil tendonu,N;ACC
+Aşil tendonları,Aşil tendonu,N;PL
+Aşkabatlıyı,Aşkabatlı,N;ACC
+Aşkabatlılar,Aşkabatlı,N;PL
+Aşkabatlı,Aşkabatlı,N;NOM;SG
+Aşkabatlılar,Aşkabatlı,N;NOM;PL
+Aşkabatlıyı,Aşkabatlı,N;ACC;SG
+Aşkabatlıları,Aşkabatlı,N;ACC;PL
+Aşkabatlıya,Aşkabatlı,N;DAT;SG
+Aşkabatlılara,Aşkabatlı,N;DAT;PL
+Aşkabatlıda,Aşkabatlı,N;ESS;SG
+Aşkabatlılarda,Aşkabatlı,N;ESS;PL
+Aşkabatlıdan,Aşkabatlı,N;ABL;SG
+Aşkabatlılardan,Aşkabatlı,N;ABL;PL
+Aşkabatlının,Aşkabatlı,N;GEN;SG
+Aşkabatlıların,Aşkabatlı,N;GEN;PL
+Aşkabatlım,Aşkabatlı,N;PSS1S;NOM;SG
+Aşkabatlılarım,Aşkabatlı,N;PSS1S;NOM;PL
+Aşkabatlımı,Aşkabatlı,N;PSS1S;ACC;SG
+Aşkabatlılarımı,Aşkabatlı,N;PSS1S;ACC;PL
+Aşkabatlıma,Aşkabatlı,N;PSS1S;DAT;SG
+Aşkabatlılarıma,Aşkabatlı,N;PSS1S;DAT;PL
+Aşkabatlımda,Aşkabatlı,N;PSS1S;ESS;SG
+Aşkabatlılarımda,Aşkabatlı,N;PSS1S;ESS;PL
+Aşkabatlımdan,Aşkabatlı,N;PSS1S;ABL;SG
+Aşkabatlılarımdan,Aşkabatlı,N;PSS1S;ABL;PL
+Aşkabatlımın,Aşkabatlı,N;PSS1S;GEN;SG
+Aşkabatlılarımın,Aşkabatlı,N;PSS1S;GEN;PL
+Aşkabatlın,Aşkabatlı,N;PSS2S;NOM;SG
+Aşkabatlıların,Aşkabatlı,N;PSS2S;NOM;PL
+Aşkabatlını,Aşkabatlı,N;PSS2S;ACC;SG
+Aşkabatlılarını,Aşkabatlı,N;PSS2S;ACC;PL
+Aşkabatlına,Aşkabatlı,N;PSS2S;DAT;SG
+Aşkabatlılarına,Aşkabatlı,N;PSS2S;DAT;PL
+Aşkabatlında,Aşkabatlı,N;PSS2S;ESS;SG
+Aşkabatlılarında,Aşkabatlı,N;PSS2S;ESS;PL
+Aşkabatlından,Aşkabatlı,N;PSS2S;ABL;SG
+Aşkabatlılarından,Aşkabatlı,N;PSS2S;ABL;PL
+Aşkabatlının,Aşkabatlı,N;PSS2S;GEN;SG
+Aşkabatlılarının,Aşkabatlı,N;PSS2S;GEN;PL
+Aşkabatlısı,Aşkabatlı,N;PSS3S;NOM;SG
+Aşkabatlıları,Aşkabatlı,N;PSS3S;NOM;PL
+Aşkabatlısını,Aşkabatlı,N;PSS3S;ACC;SG
+Aşkabatlılarını,Aşkabatlı,N;PSS3S;ACC;PL
+Aşkabatlısına,Aşkabatlı,N;PSS3S;DAT;SG
+Aşkabatlılarına,Aşkabatlı,N;PSS3S;DAT;PL
+Aşkabatlısında,Aşkabatlı,N;PSS3S;ESS;SG
+Aşkabatlılarında,Aşkabatlı,N;PSS3S;ESS;PL
+Aşkabatlısından,Aşkabatlı,N;PSS3S;ABL;SG
+Aşkabatlılarından,Aşkabatlı,N;PSS3S;ABL;PL
+Aşkabatlısının,Aşkabatlı,N;PSS3S;GEN;SG
+Aşkabatlılarının,Aşkabatlı,N;PSS3S;GEN;PL
+Aşkabatlımız,Aşkabatlı,N;PSS1P;NOM;SG
+Aşkabatlılarımız,Aşkabatlı,N;PSS1P;NOM;PL
+Aşkabatlımızı,Aşkabatlı,N;PSS1P;ACC;SG
+Aşkabatlılarımızı,Aşkabatlı,N;PSS1P;ACC;PL
+Aşkabatlımıza,Aşkabatlı,N;PSS1P;DAT;SG
+Aşkabatlılarımıza,Aşkabatlı,N;PSS1P;DAT;PL
+Aşkabatlımızda,Aşkabatlı,N;PSS1P;ESS;SG
+Aşkabatlılarımızda,Aşkabatlı,N;PSS1P;ESS;PL
+Aşkabatlımızdan,Aşkabatlı,N;PSS1P;ABL;SG
+Aşkabatlılarımızdan,Aşkabatlı,N;PSS1P;ABL;PL
+Aşkabatlımızın,Aşkabatlı,N;PSS1P;GEN;SG
+Aşkabatlılarımızın,Aşkabatlı,N;PSS1P;GEN;PL
+Aşkabatlınız,Aşkabatlı,N;PSS2P;NOM;SG
+Aşkabatlılarınız,Aşkabatlı,N;PSS2P;NOM;PL
+Aşkabatlınızı,Aşkabatlı,N;PSS2P;ACC;SG
+Aşkabatlılarınızı,Aşkabatlı,N;PSS2P;ACC;PL
+Aşkabatlınıza,Aşkabatlı,N;PSS2P;DAT;SG
+Aşkabatlılarınıza,Aşkabatlı,N;PSS2P;DAT;PL
+Aşkabatlınızda,Aşkabatlı,N;PSS2P;ESS;SG
+Aşkabatlılarınızda,Aşkabatlı,N;PSS2P;ESS;PL
+Aşkabatlınızdan,Aşkabatlı,N;PSS2P;ABL;SG
+Aşkabatlılarınızdan,Aşkabatlı,N;PSS2P;ABL;PL
+Aşkabatlınızın,Aşkabatlı,N;PSS2P;GEN;SG
+Aşkabatlılarınızın,Aşkabatlı,N;PSS2P;GEN;PL
+Aşkabatlıları,Aşkabatlı,N;PSS3P;NOM;SG
+Aşkabatlıları,Aşkabatlı,N;PSS3P;NOM;PL
+Aşkabatlılarını,Aşkabatlı,N;PSS3P;ACC;SG
+Aşkabatlılarını,Aşkabatlı,N;PSS3P;ACC;PL
+Aşkabatlılarına,Aşkabatlı,N;PSS3P;DAT;SG
+Aşkabatlılarına,Aşkabatlı,N;PSS3P;DAT;PL
+Aşkabatlılarında,Aşkabatlı,N;PSS3P;ESS;SG
+Aşkabatlılarında,Aşkabatlı,N;PSS3P;ESS;PL
+Aşkabatlılarından,Aşkabatlı,N;PSS3P;ABL;SG
+Aşkabatlılarından,Aşkabatlı,N;PSS3P;ABL;PL
+Aşkabatlılarının,Aşkabatlı,N;PSS3P;GEN;SG
+Aşkabatlılarının,Aşkabatlı,N;PSS3P;GEN;PL
+Aşkabatlıyım,Aşkabatlı,N;PRS;1;SG;{IPFV/PFV}
+Aşkabatlılarım*,Aşkabatlı,N;PRS;1;SG;{IPFV/PFV}
+Aşkabatlısın,Aşkabatlı,N;PRS;2;SG;{IPFV/PFV}
+Aşkabatlılarsın*,Aşkabatlı,N;PRS;2;SG;{IPFV/PFV}
+Aşkabatlı / Aşkabatlıdır,Aşkabatlı,N;PRS;3;SG;{IPFV/PFV}
+Aşkabatlılar* / Aşkabatlılardır*,Aşkabatlı,N;PRS;3;SG;{IPFV/PFV}
+Aşkabatlıyız,Aşkabatlı,N;PRS;1;SG;{IPFV/PFV}
+Aşkabatlılarız,Aşkabatlı,N;PRS;1;PL;{IPFV/PFV}
+Aşkabatlısınız,Aşkabatlı,N;PRS;2;SG;{IPFV/PFV}
+Aşkabatlılarsınız,Aşkabatlı,N;PRS;2;PL;{IPFV/PFV}
+Aşkabatlılar,Aşkabatlı,N;PRS;3;SG;{IPFV/PFV}
+Aşkabatlılardır,Aşkabatlı,N;PRS;3;PL;{IPFV/PFV}
+Aşkabatlıydım,Aşkabatlı,N;PST;1;SG
+Aşkabatlılardım*,Aşkabatlı,N;PST;1;SG
+Aşkabatlıydın,Aşkabatlı,N;PST;2;SG
+Aşkabatlılardın*,Aşkabatlı,N;PST;2;SG
+Aşkabatlıydı,Aşkabatlı,N;PST;3;SG
+Aşkabatlılardı*,Aşkabatlı,N;PST;3;SG
+Aşkabatlıydık,Aşkabatlı,N;PST;1;SG
+Aşkabatlılardık,Aşkabatlı,N;PST;1;PL
+Aşkabatlıydınız,Aşkabatlı,N;PST;2;SG
+Aşkabatlılardınız,Aşkabatlı,N;PST;2;PL
+Aşkabatlıydılar,Aşkabatlı,N;PST;3;SG
+Aşkabatlılardı,Aşkabatlı,N;PST;3;PL
+Aşkabatlıymışım,Aşkabatlı,N;PST;1;SG;NFH
+Aşkabatlılarmışım*,Aşkabatlı,N;PST;1;SG;NFH
+Aşkabatlıymışsın,Aşkabatlı,N;PST;2;SG;NFH
+Aşkabatlılarmışsın*,Aşkabatlı,N;PST;2;SG;NFH
+Aşkabatlıymış,Aşkabatlı,N;PST;3;SG;NFH
+Aşkabatlılarmış*,Aşkabatlı,N;PST;3;SG;NFH
+Aşkabatlıymışız,Aşkabatlı,N;PST;1;SG;NFH
+Aşkabatlılarmışız,Aşkabatlı,N;PST;1;PL;NFH
+Aşkabatlıymışsınız,Aşkabatlı,N;PST;2;SG;NFH
+Aşkabatlılarmışsınız,Aşkabatlı,N;PST;2;PL;NFH
+Aşkabatlıymışlar,Aşkabatlı,N;PST;3;SG;NFH
+Aşkabatlılarmış,Aşkabatlı,N;PST;3;PL;NFH
+Belgratlıyı,Belgratlı,N;ACC
+Belgratlılar,Belgratlı,N;PL
+Belgratlı,Belgratlı,N;NOM;SG
+Belgratlılar,Belgratlı,N;NOM;PL
+Belgratlıyı,Belgratlı,N;ACC;SG
+Belgratlıları,Belgratlı,N;ACC;PL
+Belgratlıya,Belgratlı,N;DAT;SG
+Belgratlılara,Belgratlı,N;DAT;PL
+Belgratlıda,Belgratlı,N;ESS;SG
+Belgratlılarda,Belgratlı,N;ESS;PL
+Belgratlıdan,Belgratlı,N;ABL;SG
+Belgratlılardan,Belgratlı,N;ABL;PL
+Belgratlının,Belgratlı,N;GEN;SG
+Belgratlıların,Belgratlı,N;GEN;PL
+Belgratlım,Belgratlı,N;PSS1S;NOM;SG
+Belgratlılarım,Belgratlı,N;PSS1S;NOM;PL
+Belgratlımı,Belgratlı,N;PSS1S;ACC;SG
+Belgratlılarımı,Belgratlı,N;PSS1S;ACC;PL
+Belgratlıma,Belgratlı,N;PSS1S;DAT;SG
+Belgratlılarıma,Belgratlı,N;PSS1S;DAT;PL
+Belgratlımda,Belgratlı,N;PSS1S;ESS;SG
+Belgratlılarımda,Belgratlı,N;PSS1S;ESS;PL
+Belgratlımdan,Belgratlı,N;PSS1S;ABL;SG
+Belgratlılarımdan,Belgratlı,N;PSS1S;ABL;PL
+Belgratlımın,Belgratlı,N;PSS1S;GEN;SG
+Belgratlılarımın,Belgratlı,N;PSS1S;GEN;PL
+Belgratlın,Belgratlı,N;PSS2S;NOM;SG
+Belgratlıların,Belgratlı,N;PSS2S;NOM;PL
+Belgratlını,Belgratlı,N;PSS2S;ACC;SG
+Belgratlılarını,Belgratlı,N;PSS2S;ACC;PL
+Belgratlına,Belgratlı,N;PSS2S;DAT;SG
+Belgratlılarına,Belgratlı,N;PSS2S;DAT;PL
+Belgratlında,Belgratlı,N;PSS2S;ESS;SG
+Belgratlılarında,Belgratlı,N;PSS2S;ESS;PL
+Belgratlından,Belgratlı,N;PSS2S;ABL;SG
+Belgratlılarından,Belgratlı,N;PSS2S;ABL;PL
+Belgratlının,Belgratlı,N;PSS2S;GEN;SG
+Belgratlılarının,Belgratlı,N;PSS2S;GEN;PL
+Belgratlısı,Belgratlı,N;PSS3S;NOM;SG
+Belgratlıları,Belgratlı,N;PSS3S;NOM;PL
+Belgratlısını,Belgratlı,N;PSS3S;ACC;SG
+Belgratlılarını,Belgratlı,N;PSS3S;ACC;PL
+Belgratlısına,Belgratlı,N;PSS3S;DAT;SG
+Belgratlılarına,Belgratlı,N;PSS3S;DAT;PL
+Belgratlısında,Belgratlı,N;PSS3S;ESS;SG
+Belgratlılarında,Belgratlı,N;PSS3S;ESS;PL
+Belgratlısından,Belgratlı,N;PSS3S;ABL;SG
+Belgratlılarından,Belgratlı,N;PSS3S;ABL;PL
+Belgratlısının,Belgratlı,N;PSS3S;GEN;SG
+Belgratlılarının,Belgratlı,N;PSS3S;GEN;PL
+Belgratlımız,Belgratlı,N;PSS1P;NOM;SG
+Belgratlılarımız,Belgratlı,N;PSS1P;NOM;PL
+Belgratlımızı,Belgratlı,N;PSS1P;ACC;SG
+Belgratlılarımızı,Belgratlı,N;PSS1P;ACC;PL
+Belgratlımıza,Belgratlı,N;PSS1P;DAT;SG
+Belgratlılarımıza,Belgratlı,N;PSS1P;DAT;PL
+Belgratlımızda,Belgratlı,N;PSS1P;ESS;SG
+Belgratlılarımızda,Belgratlı,N;PSS1P;ESS;PL
+Belgratlımızdan,Belgratlı,N;PSS1P;ABL;SG
+Belgratlılarımızdan,Belgratlı,N;PSS1P;ABL;PL
+Belgratlımızın,Belgratlı,N;PSS1P;GEN;SG
+Belgratlılarımızın,Belgratlı,N;PSS1P;GEN;PL
+Belgratlınız,Belgratlı,N;PSS2P;NOM;SG
+Belgratlılarınız,Belgratlı,N;PSS2P;NOM;PL
+Belgratlınızı,Belgratlı,N;PSS2P;ACC;SG
+Belgratlılarınızı,Belgratlı,N;PSS2P;ACC;PL
+Belgratlınıza,Belgratlı,N;PSS2P;DAT;SG
+Belgratlılarınıza,Belgratlı,N;PSS2P;DAT;PL
+Belgratlınızda,Belgratlı,N;PSS2P;ESS;SG
+Belgratlılarınızda,Belgratlı,N;PSS2P;ESS;PL
+Belgratlınızdan,Belgratlı,N;PSS2P;ABL;SG
+Belgratlılarınızdan,Belgratlı,N;PSS2P;ABL;PL
+Belgratlınızın,Belgratlı,N;PSS2P;GEN;SG
+Belgratlılarınızın,Belgratlı,N;PSS2P;GEN;PL
+Belgratlıları,Belgratlı,N;PSS3P;NOM;SG
+Belgratlıları,Belgratlı,N;PSS3P;NOM;PL
+Belgratlılarını,Belgratlı,N;PSS3P;ACC;SG
+Belgratlılarını,Belgratlı,N;PSS3P;ACC;PL
+Belgratlılarına,Belgratlı,N;PSS3P;DAT;SG
+Belgratlılarına,Belgratlı,N;PSS3P;DAT;PL
+Belgratlılarında,Belgratlı,N;PSS3P;ESS;SG
+Belgratlılarında,Belgratlı,N;PSS3P;ESS;PL
+Belgratlılarından,Belgratlı,N;PSS3P;ABL;SG
+Belgratlılarından,Belgratlı,N;PSS3P;ABL;PL
+Belgratlılarının,Belgratlı,N;PSS3P;GEN;SG
+Belgratlılarının,Belgratlı,N;PSS3P;GEN;PL
+Belgratlıyım,Belgratlı,N;PRS;1;SG;{IPFV/PFV}
+Belgratlılarım*,Belgratlı,N;PRS;1;SG;{IPFV/PFV}
+Belgratlısın,Belgratlı,N;PRS;2;SG;{IPFV/PFV}
+Belgratlılarsın*,Belgratlı,N;PRS;2;SG;{IPFV/PFV}
+Belgratlı / Belgratlıdır,Belgratlı,N;PRS;3;SG;{IPFV/PFV}
+Belgratlılar* / Belgratlılardır*,Belgratlı,N;PRS;3;SG;{IPFV/PFV}
+Belgratlıyız,Belgratlı,N;PRS;1;SG;{IPFV/PFV}
+Belgratlılarız,Belgratlı,N;PRS;1;PL;{IPFV/PFV}
+Belgratlısınız,Belgratlı,N;PRS;2;SG;{IPFV/PFV}
+Belgratlılarsınız,Belgratlı,N;PRS;2;PL;{IPFV/PFV}
+Belgratlılar,Belgratlı,N;PRS;3;SG;{IPFV/PFV}
+Belgratlılardır,Belgratlı,N;PRS;3;PL;{IPFV/PFV}
+Belgratlıydım,Belgratlı,N;PST;1;SG
+Belgratlılardım*,Belgratlı,N;PST;1;SG
+Belgratlıydın,Belgratlı,N;PST;2;SG
+Belgratlılardın*,Belgratlı,N;PST;2;SG
+Belgratlıydı,Belgratlı,N;PST;3;SG
+Belgratlılardı*,Belgratlı,N;PST;3;SG
+Belgratlıydık,Belgratlı,N;PST;1;SG
+Belgratlılardık,Belgratlı,N;PST;1;PL
+Belgratlıydınız,Belgratlı,N;PST;2;SG
+Belgratlılardınız,Belgratlı,N;PST;2;PL
+Belgratlıydılar,Belgratlı,N;PST;3;SG
+Belgratlılardı,Belgratlı,N;PST;3;PL
+Belgratlıymışım,Belgratlı,N;PST;1;SG;NFH
+Belgratlılarmışım*,Belgratlı,N;PST;1;SG;NFH
+Belgratlıymışsın,Belgratlı,N;PST;2;SG;NFH
+Belgratlılarmışsın*,Belgratlı,N;PST;2;SG;NFH
+Belgratlıymış,Belgratlı,N;PST;3;SG;NFH
+Belgratlılarmış*,Belgratlı,N;PST;3;SG;NFH
+Belgratlıymışız,Belgratlı,N;PST;1;SG;NFH
+Belgratlılarmışız,Belgratlı,N;PST;1;PL;NFH
+Belgratlıymışsınız,Belgratlı,N;PST;2;SG;NFH
+Belgratlılarmışsınız,Belgratlı,N;PST;2;PL;NFH
+Belgratlıymışlar,Belgratlı,N;PST;3;SG;NFH
+Belgratlılarmış,Belgratlı,N;PST;3;PL;NFH
+Bengal kaplanını,Bengal kaplanı,N;ACC
+Bengal kaplanları,Bengal kaplanı,N;PL
+Bengal kaplanı,Bengal kaplanı,N;NOM;SG
+Bengal kaplanları,Bengal kaplanı,N;NOM;PL
+Bengal kaplanını,Bengal kaplanı,N;ACC;SG
+Bengal kaplanlarını,Bengal kaplanı,N;ACC;PL
+Bengal kaplanına,Bengal kaplanı,N;DAT;SG
+Bengal kaplanlarına,Bengal kaplanı,N;DAT;PL
+Bengal kaplanında,Bengal kaplanı,N;ESS;SG
+Bengal kaplanlarında,Bengal kaplanı,N;ESS;PL
+Bengal kaplanından,Bengal kaplanı,N;ABL;SG
+Bengal kaplanlarından,Bengal kaplanı,N;ABL;PL
+Bengal kaplanının,Bengal kaplanı,N;GEN;SG
+Bengal kaplanlarının,Bengal kaplanı,N;GEN;PL
+CD'yi,CD,N;ACC
+CD'ler,CD,N;PL
+CD,CD,N;NOM;SG
+CDler / CD'ler,CD,N;NOM;PL
+CD'yi,CD,N;ACC;SG
+CDleri / CD'leri,CD,N;ACC;PL
+CD'ye,CD,N;DAT;SG
+CDlere / CD'lere,CD,N;DAT;PL
+CD'de,CD,N;ESS;SG
+CDlerde / CD'lerde,CD,N;ESS;PL
+CD'den,CD,N;ABL;SG
+CDlerden / CD'lerden,CD,N;ABL;PL
+CD'nin,CD,N;GEN;SG
+CDlerin / CD'lerin,CD,N;GEN;PL
+CD'm,CD,N;PSS1S;SG
+CDlerim / CD'lerim,CD,N;PSS1S;PL
+CD'n,CD,N;PSS2S;SG
+CDlerin / CD'lerin,CD,N;PSS2S;PL
+CD'si,CD,N;PSS3S;SG
+CDleri / CD'leri,CD,N;PSS3S;PL
+CD'miz,CD,N;PSS1P;SG
+CDlerimiz / CD'lerimiz,CD,N;PSS1P;PL
+CD'niz,CD,N;PSS2P;SG
+CDleriniz / CD'leriniz,CD,N;PSS2P;PL
+CD'si / CDleri / CD'leri,CD,N;PSS3P;SG
+CDleri / CD'leri,CD,N;PSS3P;PL
+Cakartalıyı,Cakartalı,N;ACC
+Cakartalılar,Cakartalı,N;PL
+Cakartalı,Cakartalı,N;NOM;SG
+Cakartalılar,Cakartalı,N;NOM;PL
+Cakartalıyı,Cakartalı,N;ACC;SG
+Cakartalıları,Cakartalı,N;ACC;PL
+Cakartalıya,Cakartalı,N;DAT;SG
+Cakartalılara,Cakartalı,N;DAT;PL
+Cakartalıda,Cakartalı,N;ESS;SG
+Cakartalılarda,Cakartalı,N;ESS;PL
+Cakartalıdan,Cakartalı,N;ABL;SG
+Cakartalılardan,Cakartalı,N;ABL;PL
+Cakartalının,Cakartalı,N;GEN;SG
+Cakartalıların,Cakartalı,N;GEN;PL
+Cakartalım,Cakartalı,N;PSS1S;NOM;SG
+Cakartalılarım,Cakartalı,N;PSS1S;NOM;PL
+Cakartalımı,Cakartalı,N;PSS1S;ACC;SG
+Cakartalılarımı,Cakartalı,N;PSS1S;ACC;PL
+Cakartalıma,Cakartalı,N;PSS1S;DAT;SG
+Cakartalılarıma,Cakartalı,N;PSS1S;DAT;PL
+Cakartalımda,Cakartalı,N;PSS1S;ESS;SG
+Cakartalılarımda,Cakartalı,N;PSS1S;ESS;PL
+Cakartalımdan,Cakartalı,N;PSS1S;ABL;SG
+Cakartalılarımdan,Cakartalı,N;PSS1S;ABL;PL
+Cakartalımın,Cakartalı,N;PSS1S;GEN;SG
+Cakartalılarımın,Cakartalı,N;PSS1S;GEN;PL
+Cakartalın,Cakartalı,N;PSS2S;NOM;SG
+Cakartalıların,Cakartalı,N;PSS2S;NOM;PL
+Cakartalını,Cakartalı,N;PSS2S;ACC;SG
+Cakartalılarını,Cakartalı,N;PSS2S;ACC;PL
+Cakartalına,Cakartalı,N;PSS2S;DAT;SG
+Cakartalılarına,Cakartalı,N;PSS2S;DAT;PL
+Cakartalında,Cakartalı,N;PSS2S;ESS;SG
+Cakartalılarında,Cakartalı,N;PSS2S;ESS;PL
+Cakartalından,Cakartalı,N;PSS2S;ABL;SG
+Cakartalılarından,Cakartalı,N;PSS2S;ABL;PL
+Cakartalının,Cakartalı,N;PSS2S;GEN;SG
+Cakartalılarının,Cakartalı,N;PSS2S;GEN;PL
+Cakartalısı,Cakartalı,N;PSS3S;NOM;SG
+Cakartalıları,Cakartalı,N;PSS3S;NOM;PL
+Cakartalısını,Cakartalı,N;PSS3S;ACC;SG
+Cakartalılarını,Cakartalı,N;PSS3S;ACC;PL
+Cakartalısına,Cakartalı,N;PSS3S;DAT;SG
+Cakartalılarına,Cakartalı,N;PSS3S;DAT;PL
+Cakartalısında,Cakartalı,N;PSS3S;ESS;SG
+Cakartalılarında,Cakartalı,N;PSS3S;ESS;PL
+Cakartalısından,Cakartalı,N;PSS3S;ABL;SG
+Cakartalılarından,Cakartalı,N;PSS3S;ABL;PL
+Cakartalısının,Cakartalı,N;PSS3S;GEN;SG
+Cakartalılarının,Cakartalı,N;PSS3S;GEN;PL
+Cakartalımız,Cakartalı,N;PSS1P;NOM;SG
+Cakartalılarımız,Cakartalı,N;PSS1P;NOM;PL
+Cakartalımızı,Cakartalı,N;PSS1P;ACC;SG
+Cakartalılarımızı,Cakartalı,N;PSS1P;ACC;PL
+Cakartalımıza,Cakartalı,N;PSS1P;DAT;SG
+Cakartalılarımıza,Cakartalı,N;PSS1P;DAT;PL
+Cakartalımızda,Cakartalı,N;PSS1P;ESS;SG
+Cakartalılarımızda,Cakartalı,N;PSS1P;ESS;PL
+Cakartalımızdan,Cakartalı,N;PSS1P;ABL;SG
+Cakartalılarımızdan,Cakartalı,N;PSS1P;ABL;PL
+Cakartalımızın,Cakartalı,N;PSS1P;GEN;SG
+Cakartalılarımızın,Cakartalı,N;PSS1P;GEN;PL
+Cakartalınız,Cakartalı,N;PSS2P;NOM;SG
+Cakartalılarınız,Cakartalı,N;PSS2P;NOM;PL
+Cakartalınızı,Cakartalı,N;PSS2P;ACC;SG
+Cakartalılarınızı,Cakartalı,N;PSS2P;ACC;PL
+Cakartalınıza,Cakartalı,N;PSS2P;DAT;SG
+Cakartalılarınıza,Cakartalı,N;PSS2P;DAT;PL
+Cakartalınızda,Cakartalı,N;PSS2P;ESS;SG
+Cakartalılarınızda,Cakartalı,N;PSS2P;ESS;PL
+Cakartalınızdan,Cakartalı,N;PSS2P;ABL;SG
+Cakartalılarınızdan,Cakartalı,N;PSS2P;ABL;PL
+Cakartalınızın,Cakartalı,N;PSS2P;GEN;SG
+Cakartalılarınızın,Cakartalı,N;PSS2P;GEN;PL
+Cakartalıları,Cakartalı,N;PSS3P;NOM;SG
+Cakartalıları,Cakartalı,N;PSS3P;NOM;PL
+Cakartalılarını,Cakartalı,N;PSS3P;ACC;SG
+Cakartalılarını,Cakartalı,N;PSS3P;ACC;PL
+Cakartalılarına,Cakartalı,N;PSS3P;DAT;SG
+Cakartalılarına,Cakartalı,N;PSS3P;DAT;PL
+Cakartalılarında,Cakartalı,N;PSS3P;ESS;SG
+Cakartalılarında,Cakartalı,N;PSS3P;ESS;PL
+Cakartalılarından,Cakartalı,N;PSS3P;ABL;SG
+Cakartalılarından,Cakartalı,N;PSS3P;ABL;PL
+Cakartalılarının,Cakartalı,N;PSS3P;GEN;SG
+Cakartalılarının,Cakartalı,N;PSS3P;GEN;PL
+Cakartalıyım,Cakartalı,N;PRS;1;SG;{IPFV/PFV}
+Cakartalılarım*,Cakartalı,N;PRS;1;SG;{IPFV/PFV}
+Cakartalısın,Cakartalı,N;PRS;2;SG;{IPFV/PFV}
+Cakartalılarsın*,Cakartalı,N;PRS;2;SG;{IPFV/PFV}
+Cakartalı / Cakartalıdır,Cakartalı,N;PRS;3;SG;{IPFV/PFV}
+Cakartalılar* / Cakartalılardır*,Cakartalı,N;PRS;3;SG;{IPFV/PFV}
+Cakartalıyız,Cakartalı,N;PRS;1;SG;{IPFV/PFV}
+Cakartalılarız,Cakartalı,N;PRS;1;PL;{IPFV/PFV}
+Cakartalısınız,Cakartalı,N;PRS;2;SG;{IPFV/PFV}
+Cakartalılarsınız,Cakartalı,N;PRS;2;PL;{IPFV/PFV}
+Cakartalılar,Cakartalı,N;PRS;3;SG;{IPFV/PFV}
+Cakartalılardır,Cakartalı,N;PRS;3;PL;{IPFV/PFV}
+Cakartalıydım,Cakartalı,N;PST;1;SG
+Cakartalılardım*,Cakartalı,N;PST;1;SG
+Cakartalıydın,Cakartalı,N;PST;2;SG
+Cakartalılardın*,Cakartalı,N;PST;2;SG
+Cakartalıydı,Cakartalı,N;PST;3;SG
+Cakartalılardı*,Cakartalı,N;PST;3;SG
+Cakartalıydık,Cakartalı,N;PST;1;SG
+Cakartalılardık,Cakartalı,N;PST;1;PL
+Cakartalıydınız,Cakartalı,N;PST;2;SG
+Cakartalılardınız,Cakartalı,N;PST;2;PL
+Cakartalıydılar,Cakartalı,N;PST;3;SG
+Cakartalılardı,Cakartalı,N;PST;3;PL
+Cakartalıymışım,Cakartalı,N;PST;1;SG;NFH
+Cakartalılarmışım*,Cakartalı,N;PST;1;SG;NFH
+Cakartalıymışsın,Cakartalı,N;PST;2;SG;NFH
+Cakartalılarmışsın*,Cakartalı,N;PST;2;SG;NFH
+Cakartalıymış,Cakartalı,N;PST;3;SG;NFH
+Cakartalılarmış*,Cakartalı,N;PST;3;SG;NFH
+Cakartalıymışız,Cakartalı,N;PST;1;SG;NFH
+Cakartalılarmışız,Cakartalı,N;PST;1;PL;NFH
+Cakartalıymışsınız,Cakartalı,N;PST;2;SG;NFH
+Cakartalılarmışsınız,Cakartalı,N;PST;2;PL;NFH
+Cakartalıymışlar,Cakartalı,N;PST;3;SG;NFH
+Cakartalılarmış,Cakartalı,N;PST;3;PL;NFH
+DVD'yi,DVD,N;ACC
+DVD'ler,DVD,N;PL
+DVD,DVD,N;NOM;SG
+DVDler / DVD'ler,DVD,N;NOM;PL
+DVD'yi,DVD,N;ACC;SG
+DVDleri / DVD'leri,DVD,N;ACC;PL
+DVD'ye,DVD,N;DAT;SG
+DVDlere / DVD'lere,DVD,N;DAT;PL
+DVD'de,DVD,N;ESS;SG
+DVDlerde / DVD'lerde,DVD,N;ESS;PL
+DVD'den,DVD,N;ABL;SG
+DVDlerden / DVD'lerden,DVD,N;ABL;PL
+DVD'nin,DVD,N;GEN;SG
+DVDlerin / DVD'lerin,DVD,N;GEN;PL
+DVD oynatıcısını,DVD oynatıcısı,N;ACC
+DVD oynatıcıları,DVD oynatıcısı,N;PL
+DVD oynatıcısı,DVD oynatıcısı,N;NOM;SG
+DVD oynatıcıları,DVD oynatıcısı,N;NOM;PL
+DVD oynatıcısını,DVD oynatıcısı,N;ACC;SG
+DVD oynatıcılarını,DVD oynatıcısı,N;ACC;PL
+DVD oynatıcısına,DVD oynatıcısı,N;DAT;SG
+DVD oynatıcılarına,DVD oynatıcısı,N;DAT;PL
+DVD oynatıcısında,DVD oynatıcısı,N;ESS;SG
+DVD oynatıcılarında,DVD oynatıcısı,N;ESS;PL
+DVD oynatıcısından,DVD oynatıcısı,N;ABL;SG
+DVD oynatıcılarından,DVD oynatıcısı,N;ABL;PL
+DVD oynatıcısının,DVD oynatıcısı,N;GEN;SG
+DVD oynatıcılarının,DVD oynatıcısı,N;GEN;PL
+denkler,Denk,N;ACC
+{{{2}}},Denk,N;PL
+Duşanbeliyi,Duşanbeli,N;ACC
+Duşanbeliler,Duşanbeli,N;PL
+Duşanbeli,Duşanbeli,N;NOM;SG
+Duşanbeliler,Duşanbeli,N;NOM;PL
+Duşanbeliyi,Duşanbeli,N;ACC;SG
+Duşanbelileri,Duşanbeli,N;ACC;PL
+Duşanbeliye,Duşanbeli,N;DAT;SG
+Duşanbelilere,Duşanbeli,N;DAT;PL
+Duşanbelide,Duşanbeli,N;ESS;SG
+Duşanbelilerde,Duşanbeli,N;ESS;PL
+Duşanbeliden,Duşanbeli,N;ABL;SG
+Duşanbelilerden,Duşanbeli,N;ABL;PL
+Duşanbelinin,Duşanbeli,N;GEN;SG
+Duşanbelilerin,Duşanbeli,N;GEN;PL
+Duşanbelim,Duşanbeli,N;PSS1S;NOM;SG
+Duşanbelilerim,Duşanbeli,N;PSS1S;NOM;PL
+Duşanbelimi,Duşanbeli,N;PSS1S;ACC;SG
+Duşanbelilerimi,Duşanbeli,N;PSS1S;ACC;PL
+Duşanbelime,Duşanbeli,N;PSS1S;DAT;SG
+Duşanbelilerime,Duşanbeli,N;PSS1S;DAT;PL
+Duşanbelimde,Duşanbeli,N;PSS1S;ESS;SG
+Duşanbelilerimde,Duşanbeli,N;PSS1S;ESS;PL
+Duşanbelimden,Duşanbeli,N;PSS1S;ABL;SG
+Duşanbelilerimden,Duşanbeli,N;PSS1S;ABL;PL
+Duşanbelimin,Duşanbeli,N;PSS1S;GEN;SG
+Duşanbelilerimin,Duşanbeli,N;PSS1S;GEN;PL
+Duşanbelin,Duşanbeli,N;PSS2S;NOM;SG
+Duşanbelilerin,Duşanbeli,N;PSS2S;NOM;PL
+Duşanbelini,Duşanbeli,N;PSS2S;ACC;SG
+Duşanbelilerini,Duşanbeli,N;PSS2S;ACC;PL
+Duşanbeline,Duşanbeli,N;PSS2S;DAT;SG
+Duşanbelilerine,Duşanbeli,N;PSS2S;DAT;PL
+Duşanbelinde,Duşanbeli,N;PSS2S;ESS;SG
+Duşanbelilerinde,Duşanbeli,N;PSS2S;ESS;PL
+Duşanbelinden,Duşanbeli,N;PSS2S;ABL;SG
+Duşanbelilerinden,Duşanbeli,N;PSS2S;ABL;PL
+Duşanbelinin,Duşanbeli,N;PSS2S;GEN;SG
+Duşanbelilerinin,Duşanbeli,N;PSS2S;GEN;PL
+Duşanbelisi,Duşanbeli,N;PSS3S;NOM;SG
+Duşanbelileri,Duşanbeli,N;PSS3S;NOM;PL
+Duşanbelisini,Duşanbeli,N;PSS3S;ACC;SG
+Duşanbelilerini,Duşanbeli,N;PSS3S;ACC;PL
+Duşanbelisine,Duşanbeli,N;PSS3S;DAT;SG
+Duşanbelilerine,Duşanbeli,N;PSS3S;DAT;PL
+Duşanbelisinde,Duşanbeli,N;PSS3S;ESS;SG
+Duşanbelilerinde,Duşanbeli,N;PSS3S;ESS;PL
+Duşanbelisinden,Duşanbeli,N;PSS3S;ABL;SG
+Duşanbelilerinden,Duşanbeli,N;PSS3S;ABL;PL
+Duşanbelisinin,Duşanbeli,N;PSS3S;GEN;SG
+Duşanbelilerinin,Duşanbeli,N;PSS3S;GEN;PL
+Duşanbelimiz,Duşanbeli,N;PSS1P;NOM;SG
+Duşanbelilerimiz,Duşanbeli,N;PSS1P;NOM;PL
+Duşanbelimizi,Duşanbeli,N;PSS1P;ACC;SG
+Duşanbelilerimizi,Duşanbeli,N;PSS1P;ACC;PL
+Duşanbelimize,Duşanbeli,N;PSS1P;DAT;SG
+Duşanbelilerimize,Duşanbeli,N;PSS1P;DAT;PL
+Duşanbelimizde,Duşanbeli,N;PSS1P;ESS;SG
+Duşanbelilerimizde,Duşanbeli,N;PSS1P;ESS;PL
+Duşanbelimizden,Duşanbeli,N;PSS1P;ABL;SG
+Duşanbelilerimizden,Duşanbeli,N;PSS1P;ABL;PL
+Duşanbelimizin,Duşanbeli,N;PSS1P;GEN;SG
+Duşanbelilerimizin,Duşanbeli,N;PSS1P;GEN;PL
+Duşanbeliniz,Duşanbeli,N;PSS2P;NOM;SG
+Duşanbelileriniz,Duşanbeli,N;PSS2P;NOM;PL
+Duşanbelinizi,Duşanbeli,N;PSS2P;ACC;SG
+Duşanbelilerinizi,Duşanbeli,N;PSS2P;ACC;PL
+Duşanbelinize,Duşanbeli,N;PSS2P;DAT;SG
+Duşanbelilerinize,Duşanbeli,N;PSS2P;DAT;PL
+Duşanbelinizde,Duşanbeli,N;PSS2P;ESS;SG
+Duşanbelilerinizde,Duşanbeli,N;PSS2P;ESS;PL
+Duşanbelinizden,Duşanbeli,N;PSS2P;ABL;SG
+Duşanbelilerinizden,Duşanbeli,N;PSS2P;ABL;PL
+Duşanbelinizin,Duşanbeli,N;PSS2P;GEN;SG
+Duşanbelilerinizin,Duşanbeli,N;PSS2P;GEN;PL
+Duşanbelileri,Duşanbeli,N;PSS3P;NOM;SG
+Duşanbelileri,Duşanbeli,N;PSS3P;NOM;PL
+Duşanbelilerini,Duşanbeli,N;PSS3P;ACC;SG
+Duşanbelilerini,Duşanbeli,N;PSS3P;ACC;PL
+Duşanbelilerine,Duşanbeli,N;PSS3P;DAT;SG
+Duşanbelilerine,Duşanbeli,N;PSS3P;DAT;PL
+Duşanbelilerinde,Duşanbeli,N;PSS3P;ESS;SG
+Duşanbelilerinde,Duşanbeli,N;PSS3P;ESS;PL
+Duşanbelilerinden,Duşanbeli,N;PSS3P;ABL;SG
+Duşanbelilerinden,Duşanbeli,N;PSS3P;ABL;PL
+Duşanbelilerinin,Duşanbeli,N;PSS3P;GEN;SG
+Duşanbelilerinin,Duşanbeli,N;PSS3P;GEN;PL
+Duşanbeliyim,Duşanbeli,N;PRS;1;SG;{IPFV/PFV}
+Duşanbelilerim*,Duşanbeli,N;PRS;1;SG;{IPFV/PFV}
+Duşanbelisin,Duşanbeli,N;PRS;2;SG;{IPFV/PFV}
+Duşanbelilersin*,Duşanbeli,N;PRS;2;SG;{IPFV/PFV}
+Duşanbeli / Duşanbelidir,Duşanbeli,N;PRS;3;SG;{IPFV/PFV}
+Duşanbeliler* / Duşanbelilerdir*,Duşanbeli,N;PRS;3;SG;{IPFV/PFV}
+Duşanbeliyiz,Duşanbeli,N;PRS;1;SG;{IPFV/PFV}
+Duşanbelileriz,Duşanbeli,N;PRS;1;PL;{IPFV/PFV}
+Duşanbelisiniz,Duşanbeli,N;PRS;2;SG;{IPFV/PFV}
+Duşanbelilersiniz,Duşanbeli,N;PRS;2;PL;{IPFV/PFV}
+Duşanbeliler,Duşanbeli,N;PRS;3;SG;{IPFV/PFV}
+Duşanbelilerdir,Duşanbeli,N;PRS;3;PL;{IPFV/PFV}
+Duşanbeliydim,Duşanbeli,N;PST;1;SG
+Duşanbelilerdim*,Duşanbeli,N;PST;1;SG
+Duşanbeliydin,Duşanbeli,N;PST;2;SG
+Duşanbelilerdin*,Duşanbeli,N;PST;2;SG
+Duşanbeliydi,Duşanbeli,N;PST;3;SG
+Duşanbelilerdi*,Duşanbeli,N;PST;3;SG
+Duşanbeliydik,Duşanbeli,N;PST;1;SG
+Duşanbelilerdik,Duşanbeli,N;PST;1;PL
+Duşanbeliydiniz,Duşanbeli,N;PST;2;SG
+Duşanbelilerdiniz,Duşanbeli,N;PST;2;PL
+Duşanbeliydiler,Duşanbeli,N;PST;3;SG
+Duşanbelilerdi,Duşanbeli,N;PST;3;PL
+Duşanbeliymişim,Duşanbeli,N;PST;1;SG;NFH
+Duşanbelilermişim*,Duşanbeli,N;PST;1;SG;NFH
+Duşanbeliymişsin,Duşanbeli,N;PST;2;SG;NFH
+Duşanbelilermişsin*,Duşanbeli,N;PST;2;SG;NFH
+Duşanbeliymiş,Duşanbeli,N;PST;3;SG;NFH
+Duşanbelilermiş*,Duşanbeli,N;PST;3;SG;NFH
+Duşanbeliymişiz,Duşanbeli,N;PST;1;SG;NFH
+Duşanbelilermişiz,Duşanbeli,N;PST;1;PL;NFH
+Duşanbeliymişsiniz,Duşanbeli,N;PST;2;SG;NFH
+Duşanbelilermişsiniz,Duşanbeli,N;PST;2;PL;NFH
+Duşanbeliymişler,Duşanbeli,N;PST;3;SG;NFH
+Duşanbelilermiş,Duşanbeli,N;PST;3;PL;NFH
+Fibonacci dizisini,Fibonacci dizisi,N;ACC
+Fibonacci dizileri,Fibonacci dizisi,N;PL
+Fibonacci sayısını,Fibonacci sayısı,N;ACC
+Fibonacci sayıları,Fibonacci sayısı,N;PL
+Güneş tutulması,Güneş tutulması,N;NOM;SG
+Güneş tutulmaları,Güneş tutulması,N;NOM;PL
+Güneş tutulmasını,Güneş tutulması,N;ACC;SG
+Güneş tutulmalarını,Güneş tutulması,N;ACC;PL
+Güneş tutulmasına,Güneş tutulması,N;DAT;SG
+Güneş tutulmalarına,Güneş tutulması,N;DAT;PL
+Güneş tutulmasında,Güneş tutulması,N;ESS;SG
+Güneş tutulmalarında,Güneş tutulması,N;ESS;PL
+Güneş tutulmasından,Güneş tutulması,N;ABL;SG
+Güneş tutulmalarından,Güneş tutulması,N;ABL;PL
+Güneş tutulmasının,Güneş tutulması,N;GEN;SG
+Güneş tutulmalarının,Güneş tutulması,N;GEN;PL
