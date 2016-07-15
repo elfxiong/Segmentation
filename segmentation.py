@@ -1,4 +1,7 @@
 from collections import defaultdict
+
+import re
+
 from starter_code import LCS, MLCS, compare_str_lcs
 import codecs
 
@@ -31,6 +34,16 @@ def produce_dicts(file):
         for feature in fv.strip().split(';'):
             feature_dict[feature][stem].append(inflected_form)
     return feature_dict, lemma_forms_dict
+
+
+def convert_to_archiphonemic(form):
+    # language specific
+    form = re.sub('[ae]', 'E', form)
+    form = re.sub('[iɪüu]', 'I', form)
+    form = re.sub('[dt]', 'D', form)
+    form = re.sub('[cç]', 'C', form)
+    form = re.sub('[kgǧ]', 'K', form)
+    return form
 
 
 def read_csv(filename):
