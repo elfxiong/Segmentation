@@ -74,6 +74,17 @@ def MLCS(s):
         return lcs_set.pop()
 
 
+def MLCS_2(s):
+    """An iterative method to compute MLCS"""
+    lst = sorted(list(s))
+
+    lcs = lst[0]
+    for string in lst[1:]:
+        lcs = LCS(lcs, string)
+
+    return lcs
+
+
 def compare_str_lcs(string, lcs):
     """
     Takes a string and the LCS of it with another unicode string to be compared, and which is supplied by a previous 
