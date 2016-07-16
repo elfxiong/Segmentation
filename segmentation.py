@@ -73,7 +73,7 @@ def read_csv(filename):
     lst = []
 
     lcs_dict = {}
-    # this dict is used as a bag to store the feature and the lcs over the affixes asscaited with the feature.
+    # this dict is used as a bag to store the feature and the lcs over the affixes associated with the feature.
 
     for (suffix, feature), count in final_freq_dict.items():
         if feature in lcs_dict:
@@ -83,7 +83,7 @@ def read_csv(filename):
         # fout.write(feature+","+suffix+","+str(count)+"\n")
         tup = (feature, suffix, str(count))
         lst.append(tup)
-    lst = sorted(lst, key=lambda x: x[1])
+    lst = sorted(lst, key=lambda x: int(x[2]), reverse=True)
     lst = sorted(lst, key=lambda x: x[0])
     lst = [','.join(tup) for tup in lst]
     fout.write('\n'.join(lst))
@@ -107,7 +107,7 @@ def read_csv(filename):
 
 
 def main():
-    read_csv('test_tur.csv')
+    read_csv('wik_tur.csv')
 
 
 if __name__ == '__main__':
