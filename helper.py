@@ -1,21 +1,56 @@
-"""Longest common subsequence and longest common substring functions
-Found on Wiki
-"""
-
-
 # subsequence
+from collections import defaultdict
+from itertools import chain, combinations
+
+
+def LCS(X, Y):
+    """
+    First finds a table (matrix) such that L[j][k] is length of longest common subsequence for X[0:j] and Y[0:k].
+    Then, uses tracebacks through this table to print the actual LCS.
+    This only works for two strings, and is the most straightforward dynamic programming solution,
+    but it likely isn't the fastest.
+    """
+    n, m = len(X), len(Y)
+    L = [[0] * (m + 1) for k in range(n + 1)]  # Creates matrix of values to fill
+    for j in range(n):  # Loop through indices of 1st string
+        for k in range(m):  # Loop through indices of 2nd str each time you're on an index of first
+            if X[j] == Y[k]:  # If the characters match,
+                L[j + 1][k + 1] = L[j][k] + 1  # fill in coordinates of table with value of upper left cell + 1.
+            else:  # Otherwise,
+                L[j + 1][k + 1] = max(L[j][k + 1], L[j + 1][k])  # choose max value from left cell or above cell
+    solution = []  # Initialize a list for storing the solution
+    j, k = len(X), len(Y)  # Now, do a traceback through L, starting with the highest valued cell.
+    while L[j][k] > 0:
+        if X[j - 1] == Y[k - 1]:
+            solution.append(X[j - 1])
+            j -= 1
+            k -= 1
+        elif L[j - 1][k] > L[j][k - 1]:  # This and the next elif pick the highest value in a cell to
+            j -= 1  # the left or above in L.
+        elif L[j - 1][k] < L[j][k - 1]:
+            k -= 1
+        elif L[j - 1][k] == L[j][k - 1]:  # Original algorithm didn't adequately deal with case in which
+            # cell to the left or above were equally good.
+            if X[j - 2] == Y[k - 1] and X[j - 2] not in {"a", "e", "i", "o", "u"}:  # Bias toward consonants in stem.
+                j -= 1  # Eventually, need to not hardcode the vowels!!
+            elif X[j - 1] == Y[k - 2] and Y[k - 2] not in {"a", "e", "i", "o", "u"}:  # Bias toward consonants in stem.
+                k -= 1  # Eventually, need to not hardcode the vowels!!
+            else:  # Default directionality: Leftward in chart.
+                k -= 1
+        else:  # Default directionality: Leftward in chart.
+            k -= 1
+    return ''.join(reversed(solution))
 
 
 def m_longest_common_subsequence_2(s):
     """An iterative method to compute MLCS"""
-    from starter_code import LCS as longest_common_subsequence
 
     # Correct me if I'm wrong but I think unsorted list is faster
     lst = list(s)
 
     lcs = lst[0]
     for string in lst[1:]:
-        lcs = longest_common_subsequence(lcs, string)
+        lcs = LCS(lcs, string)
 
     return lcs
 
@@ -90,3 +125,17 @@ def m_longest_common_substring(it):
         lcs = longest_common_substring(lcs, string)
 
     return lcs
+
+
+# other
+
+
+def powerset(iterable):
+    """powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"""
+    s = list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s) + 1))
+
+
+def subtract(x, y):
+    """x - y"""
+    return [item for item in x if item not in y]
