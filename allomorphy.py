@@ -22,6 +22,8 @@ def get_unprocessed_data(file):
 
 
 class Model:
+    """This class is just used as a container in order to avoid using global variable"""
+
     def __init__(self):
         self.all_letters = set()
         self.letter_combinations = None
@@ -32,6 +34,8 @@ class Model:
         for form, lemma, fv in data:
             # convert to lower case
             self.all_letters.update(form.lower())
+        print('{} letters: {}'.format(len(self.all_letters), ','.join(self.all_letters)))
+
         # form combinations
         if separate:
             vowels = ['î', 'ü', 'ö', 'a', 'i', 'e', 'û', 'u', 'o', 'ı', 'â']
@@ -40,25 +44,30 @@ class Model:
             self.letter_combinations = list(combinations(vowels, 2)) + list(combinations(consonants, 2))
         else:
             self.letter_combinations = list(combinations(self.all_letters, 2))
-
-        print(self.letter_combinations)
-        print(len(self.letter_combinations))
+        print('{} combinations: {}'.format(len(self.letter_combinations), self.letter_combinations))
 
     def find_allomorph(self, forms):
+        """ Find MLCS of the forms.
+        For example, if 'n' is the longest substring/sequence that occurs in all forms, then 'n' would be in the output.
+        If either 'a' or 'e' occurs in any forms, then {a/e} would be in the output. """
         lcs_list = set()
         for a, b in self.letter_combinations:
-            # print(a, b)
-            archi = '{{{}/{}}}'.format(a, b)
             # a and b are two letters that we assume is the variation
+            # so I pretend they are the same letter
+            # (by replace each of them with a char that is not present in the alphabet)
+            # and then find MLCS, and then replace them back with {a/b}
+            archi = '{{{}/{}}}'.format(a, b)
             forms_copy = [form.replace(a, 'Q').replace(b, 'Q') for form in forms]
             # print(forms_copy)
             lcs = self.MLCS(forms_copy)
             if lcs:
                 lcs_list.add(lcs.replace('Q', archi))
+        # TODO cleanup the lcs_list
+        # for example, whenever 'n' is in the list, {n/*} is also in the list
         return lcs_list
 
 
-def main():
+def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('--contiguous', '-ct', action='store_true',
                         help='use longest_common_substring instead of longest_common_subsequence')
@@ -66,7 +75,11 @@ def main():
     parser.add_argument('--separate', '-sp', action='store_true',
                         help='separate vowels from consonants when considering possible variations')
 
-    args = parser.parse_args()
+    return parser.parse_args()
+
+
+def main():
+    args = parse_arguments()
     print('contiguous: {}\ncombo size: {}\nseparate: {}'.format(args.contiguous, args.combo_size, args.separate))
 
     with open('wik_tur.csv') as file:
@@ -77,8 +90,7 @@ def main():
         combi_forms_dict.update(get_feature_combi_dict(data, i))
     key_list = [tuple(sorted(tuple(key))) for key in combi_forms_dict.keys()]
     key_list.sort(key=lambda x: (len(x), x))
-    print(key_list)
-    print(len(key_list))
+    print('{} combinations of features: {}'.format(len(key_list), key_list))
 
     m = Model()
     m.get_all_letters(data, separate=args.separate)
