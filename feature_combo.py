@@ -1,11 +1,22 @@
+"""
+Look at multiple features at a time instead of one at a time,
+in order to discover LCS that is not present when only treating one feature at a time.
+
+Motivation: sometimes multiple features together determine a single morpheme.
+e.g. '3;SG' in English has 's' while neither '3' nor 'SG' entails the 's'.
+"""
+
 from collections import defaultdict
 from itertools import combinations
-
 from helper import m_longest_common_subsequence_3 as MLCS
 from helper import powerset, subtract
 
 
 def get_unprocessed_data(file):
+    """ Read the csv file without doing any processing of the data
+    Input: csv file formatted as [inflected form],[lemma],[feature1;feature2;...]
+    Output: A list of tuples. The tuple is formatted as (inflected_form, lemma, feature_vector)
+    """
     lst = []
     for line in file:
         inflected_form, lemma, fv = line.split(',')

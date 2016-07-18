@@ -1,24 +1,16 @@
+"""
+"Brute force" way of finding potential allomorphs.
+
+For each feature, gather all the forms that have this feature, do:
+for any possible two letters combination, assume there is a allomorphic variation between the two
+and try to find the MLCS of the forms.
+
+For example, if a morpheme alternatives between lar/ler, then neither 'lar' nor 'ler' can be found using simple MLCS,
+since neither is common among all forms. However, when assuming a/e are the same, l{a/e}r can be found using MLCS.
+"""
 import argparse
 from itertools import combinations
-
-from feature_combo import get_feature_combi_dict
-
-
-def get_unprocessed_data(file):
-    lst = []
-    for line in file:
-        inflected_form, lemma, fv = line.split(',')
-        # ignore any inflection that contains spaces
-        if ' ' in inflected_form or ' ' in lemma or '{' in inflected_form or '?' in inflected_form or '-' in inflected_form:
-            continue
-
-        inflected_form = inflected_form.replace('*', '')
-
-        if '(' in inflected_form or '/' in inflected_form:
-            continue
-
-        lst.append((inflected_form, lemma, fv))
-    return lst
+from feature_combo import get_unprocessed_data, get_feature_combi_dict
 
 
 class Model:
@@ -101,7 +93,6 @@ def main():
     m.MLCS = MLCS
 
     # combi_lcs_list_dict = {}
-    # c = 0
     for feature in key_list:
         forms = combi_forms_dict[frozenset(feature)]
         lcs_list = m.find_allomorph(forms)
