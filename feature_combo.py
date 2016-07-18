@@ -1,14 +1,25 @@
 from collections import defaultdict
-from itertools import combinations, chain
+from itertools import combinations
 
-from segmentation import get_unprocessed_data
-from starter_code import MLCS_2
+from helper import m_longest_common_subsequence_3 as MLCS
+from helper import powerset, subtract
 
 
-def powerset(iterable):
-    """powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"""
-    s = list(iterable)
-    return chain.from_iterable(combinations(s, r) for r in range(len(s) + 1))
+def get_unprocessed_data(file):
+    lst = []
+    for line in file:
+        inflected_form, lemma, fv = line.split(',')
+        # ignore any inflection that contains spaces
+        if ' ' in inflected_form or ' ' in lemma or '{' in inflected_form or '?' in inflected_form or '-' in inflected_form:
+            continue
+
+        inflected_form = inflected_form.replace('*', '')
+
+        if '(' in inflected_form or '/' in inflected_form:
+            continue
+
+        lst.append((inflected_form, lemma, fv))
+    return lst
 
 
 def get_feature_combi_dict(tup_list, n):
@@ -28,11 +39,6 @@ def get_feature_combi_dict(tup_list, n):
     return feature_pair_count
 
 
-def subtract(x, y):
-    """x - y"""
-    return [item for item in x if item not in y]
-
-
 def main():
     with open('wik_tur.csv') as file:
         data = get_unprocessed_data(file)
@@ -46,7 +52,7 @@ def main():
     combi_lcs_dict = {}
     combi_count_dict = {}
     for features, forms in combi_forms_dict.items():
-        lcs = MLCS_2(forms)
+        lcs = MLCS(forms)
         count = len(forms)
         if lcs:
             combi_lcs_dict[features] = lcs
