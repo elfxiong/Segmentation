@@ -19,7 +19,7 @@ def get_unprocessed_data(file):
     """
     lst = []
     for line in file:
-        inflected_form, lemma, fv = line.split(',')
+        inflected_form, lemma, fv = line.strip().split(',')
         # ignore any inflection that contains spaces
         if ' ' in inflected_form or ' ' in lemma or '{' in inflected_form or '?' in inflected_form or '-' in inflected_form:
             continue
