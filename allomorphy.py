@@ -51,6 +51,7 @@ class Model:
         If either 'a' or 'e' occurs in any forms, then {a/e} would be in the output. """
         lcs_list = set()
         for a, b in self.letter_combinations:
+        forms = [form.lower() for form in forms]
             # a and b are two letters that we assume is the variation
             # so I pretend they are the same letter
             # (by replace each of them with a char that is not present in the alphabet)
