@@ -1,7 +1,10 @@
+import re
 from collections import defaultdict
 
 from feature_combo import get_unprocessed_data
 from helper import powerset
+
+BRACES = re.compile(r'[{}]')
 
 
 class Segmenter():
@@ -27,9 +30,17 @@ class Segmenter():
         recognized_morph = list(recognized_morph)
         recognized_morph.sort(key=lambda x: len(x[1]), reverse=True)
         for feature_set, morph in recognized_morph:
-            form = form.replace(morph, '{{{}}}'.format(morph))
+
+            segments = BRACES.split(form)
+            for index, seg in enumerate(segments):
+                if index % 2 == 0:  # outside braces
+                    segments[index] = seg.replace(morph, '{{{}}}'.format(morph))
+                else:  # inside braces
+                    segments[index] = "{{{}}}".format(seg)
+
             # remove found features from the feature vector
             feature_vector -= feature_set
+            form = ''.join(segments)
 
         return form, feature_vector
 
