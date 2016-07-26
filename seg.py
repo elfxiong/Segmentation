@@ -10,31 +10,40 @@ class Segmenter():
     def __init__(self):
         self.feature_morpheme_dict = None
 
-    def attempt_segment(self, form, features):
+    def attempt_segment(self, form, feature_vector):
+        # print(type(features))
         recognized_morph = set()
-        for feature_set in powerset(features):
+
+        for feature_set in powerset(feature_vector):
             feature_set = frozenset(feature_set)
             if feature_set in self.feature_morpheme_dict:
-                recognized_morph.update(self.feature_morpheme_dict[feature_set])
+                # recognized_morph.update(self.feature_morpheme_dict[feature_set])
+                tup_list = [(feature_set, morph) for morph in self.feature_morpheme_dict[feature_set]]
+                recognized_morph.update(tup_list)
+
+        feature_vector = set(feature_vector)
 
         # sort and prioritize long morphs
         recognized_morph = list(recognized_morph)
-        recognized_morph.sort(key=lambda x: len(x), reverse=True)
-        for morph in recognized_morph:
+        recognized_morph.sort(key=lambda x: len(x[1]), reverse=True)
+        for feature_set, morph in recognized_morph:
             form = form.replace(morph, '{{{}}}'.format(morph))
-        return form
+            # remove found features from the feature vector
+            feature_vector -= feature_set
+
+        return form, feature_vector
 
 
 def main():
-    with open('data/wik_tur_N_only.csv') as file:
+    with open('data/wik_tur_N_only.csv', encoding='utf8') as file:
         data = get_unprocessed_data(file)
 
     segmenter = Segmenter()
 
     d = defaultdict(list)
-    with open('data/tur_N_affix_list.csv') as file:
+    with open('data/tur_N_affix_list.csv', encoding='utf8') as file:
         for line in file:
-            print(line)
+            # print(line)
             features, segment = line.strip().split(',')
             if segment:
                 d[frozenset(features.split(';'))].append(segment)
@@ -42,8 +51,10 @@ def main():
 
     for inflected_form, lemma, features in data:
         features = features.split(';')
-        segmented_form = segmenter.attempt_segment(inflected_form, features)
-        print(inflected_form, segmented_form, lemma, features, sep=',')
+        inflection = inflected_form.replace(lemma, "")
+
+        segmented_form, new_feature_set = segmenter.attempt_segment(inflection, features)
+        print(inflected_form, segmented_form, lemma, new_feature_set, sep=',')
 
 
 if __name__ == '__main__':
