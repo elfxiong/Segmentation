@@ -1,8 +1,13 @@
+# cython: language_level=3
 from collections import defaultdict
 from difflib import ndiff
 from itertools import combinations
 
 from feature_combo import get_unprocessed_data
+
+
+def defaultdict_of_int():
+    return defaultdict(int)
 
 
 class Segmenter:
@@ -17,9 +22,22 @@ class Segmenter:
         # lemma --> fv -->form
         self.lemma_fv_form_dict = None
 
-    def generate_minimal_pairs(self):
-        # input:
-        # lemma_fv_dict[lemma][fv] --> forms
+        # feature --> morph --> count
+        self.feature_morph_count = None
+
+    def produce_possible_morphs_from_minimal_pair(self):
+        """Generate a list of possible morphs for each feature by comparing minimal pairs
+            input: a dictionary: lemma --> fv --> form
+            1. find fv minimal pairs
+            2. compute the diff of the forms and append it to the list of possible forms
+
+            For example, V;SG;1 and V;PL;1 is a minimal pair.
+            If for a lemma, V;SG;1 is 'blahsg', and V;PL;1 is 'blahpl',
+            then 'sg' is added to the list for feature SG, and 'pl' is added to the list for feature PL.
+        """
+
+        # feature --> morph --> count
+        feature_morph_dict = defaultdict(defaultdict_of_int)
 
         for lemma, fv_s in self.lemma_fv_form_dict.items():
 
@@ -37,10 +55,16 @@ class Segmenter:
                     chars_only_in_form1 = ''.join([x[2:] for x in delta if x.startswith('-')])
                     feature1 = fv1 - fv2
                     feature2 = fv2 - fv1
-                    print('{}:{} \t {}: {}'.format(''.join(feature1), chars_only_in_form1, ''.join(feature2),
-                                                   chars_only_in_form2))
-                    # print('{},{} --> {}, {}'.format(form1, form2, chars_only_in_form1, chars_only_in_form2))
-                    # TODO: store in a dict
+                    # print('{}:{} \t {}: {}'.format(''.join(feature1), chars_only_in_form1, ''.join(feature2),
+                    #                                chars_only_in_form2))
+
+                    # count ++
+                    if feature1:
+                        feature_morph_dict[feature1][chars_only_in_form1] += 1
+                    if feature2:
+                        feature_morph_dict[feature2][chars_only_in_form2] += 1
+
+        self.feature_morph_count = feature_morph_dict
 
     def read_unimorph_schema(self, file):
         import csv
@@ -76,7 +100,7 @@ class Segmenter:
         """
 
         # the features that is in either fv1 or fv2 but NOT both.
-        diff = frozenset(fv1) ^ frozenset(fv2)
+        diff = fv1 ^ fv2
         if len(diff) == 1:
             return True
         elif len(diff) == 2:
@@ -84,6 +108,31 @@ class Segmenter:
             return self.in_same_dimension(feature1, feature2)
         else:
             return False
+
+    def print_feature_morph_prob(self):
+        tuple_list = []
+        for feature, morph_count_dict in self.feature_morph_count.items():
+            tuple_list.extend((''.join(feature), morph, count) for morph, count in morph_count_dict.items())
+
+        # print(tuple_list)
+        # import json
+        # json.dump(self.feature_morph_count, fp=open('minimal_pair.json', 'w+'))
+        # sort by feature and then by freq
+        tuple_list.sort(key=lambda tup: (tup[0], -tup[2]))
+        tuple_list = ['{},{},{}'.format(feature_set, morph, count) for feature_set, morph, count in tuple_list]
+        print('\n'.join(tuple_list))
+
+    def generate_correlation(self):
+        # TODO
+        pass
+
+    def pickle_feature_morph_prob(self):
+        import pickle
+        pickle.dump(self.feature_morph_count, file=open('minimal_pair.pickle', 'wb+'))
+
+    def unpickle_feature_morph_prob(self):
+        import pickle
+        self.feature_morph_count = pickle.load(file=open('minimal_pair.pickle'))
 
 
 def main():
@@ -106,7 +155,13 @@ def main():
 
     segmenter.lemma_fv_form_dict = lemma_fv_form_dict
 
-    segmenter.generate_minimal_pairs()
+    segmenter.produce_possible_morphs_from_minimal_pair()
+
+    segmenter.print_feature_morph_prob()
+
+    segmenter.pickle_feature_morph_prob()
+
+    segmenter.generate_correlation()
 
 
 if __name__ == '__main__':
